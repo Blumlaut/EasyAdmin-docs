@@ -15,9 +15,8 @@ markdown_extensions:
 plugins:
   - search
   - git-revision-date
-  - mike:
-      version_selector: true
-      default: main
+  - mkdocs-versioning:
+      version: 6.2
 
 
 theme:
