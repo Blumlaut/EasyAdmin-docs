@@ -15,9 +15,6 @@ markdown_extensions:
 plugins:
   - search
   - git-revision-date
-  - mkdocs-versioning:
-      version: "6.2"
-
 
 theme:
   name: material
