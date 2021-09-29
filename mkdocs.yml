@@ -1,8 +1,8 @@
 site_name: EasyAdmin
 site_description: EasyAdmin Documentation
 
-repo_url: https://github.com/Blumlaut/EasyAdmin
-edit_uri: "edit/docs/"
+repo_url: "https://github.com/Blumlaut/EasyAdmin"
+edit_uri: "https://github.com/Blumlaut/EasyAdmin-docs/edit/main/docs/"
 
 markdown_extensions:
   - pymdownx.highlight:
