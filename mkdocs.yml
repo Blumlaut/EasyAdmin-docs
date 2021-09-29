@@ -16,7 +16,7 @@ plugins:
   - search
   - git-revision-date
   - mkdocs-versioning:
-      version: 6.2
+      version: "6.2"
 
 
 theme:
