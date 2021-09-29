@@ -15,7 +15,10 @@ markdown_extensions:
 plugins:
   - search
   - git-revision-date
-  - mike
+  - mike:
+      version_selector: true
+      default: main
+
 
 theme:
   name: material
