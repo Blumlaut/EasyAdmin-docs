@@ -3,23 +3,32 @@
 This page outlines instructions on how to update EasyAdmin between versions.
 
 
-## Version 6.2 and newer
+## To 6.3
+
+### ea_MenuButton to ea_defaultKey
+
+`ea_MenuButton` has been renamed to `ea_defaultKey`, syntax has been kept, so the change is as simple as the following in your server config:
+
+```diff
+- setr ea_MenuButton "F2"
++ setr ea_defaultKey "F2"
+```
+
+
+
+## To 6.2
 
 ### Permissions change
 
 Permissions have been changed majorly from 5.* to 6.2 and above, Permissions now have a "category" they belong to, there have also been new permissions added for existing features.
 
-As an example
+As an example:
 
-```
-add_ace group.moderator easyadmin.kick allow
+```diff
+- add_ace group.moderator easyadmin.kick allow
++ add_ace group.moderator easyadmin.player.kick allow
 ```
 
-has been changed to
-
-```
-add_ace group.moderator easyadmin.player.kick allow
-```
 Existing Permissions now have either "player" or "server" as a prefix, here is a list of Permissions as of 6.2, do note that they should all be prefixed with `easyadmin.`
 
 Important to note is that `manageserver` no longer exists, and `teleport.player` has been renamed to `player.teleport.single`, implying the ability to teleport a single player at once.
@@ -60,14 +69,9 @@ ___
 
 The ea_MenuButton convar has been changed and now requires a string for a key, as per [this docs entry](https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/), as an example:
 
-```
-setr ea_MenuButton "289"
-```
-
-now becomes
-
-```
-setr ea_MenuButton "f2"
+```diff
+- setr ea_MenuButton "289"
++ setr ea_MenuButton "f2"
 ```
 
 **Note:** This is a one-time action, once a player joins with that Keybind set they will have to change it from their Control Settings inside of FiveM, FiveM currently does not provide any way to override this for all players.
