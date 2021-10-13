@@ -51,6 +51,22 @@ AddEventHandler("EasyAdmin:MenuRemoved", function() -- this triggers if a player
 end)
 ```
 
+## Adding new Permissions
+
+Permissions can be added to EasyAdmin by making a `shared` File using the following boilerplate:
+```Lua
+Citizen.CreateThread(function()
+	repeat
+		Wait(0)
+	until permissions
+	permissions["your.custom.permission"] = false
+end)
+```
+
+Of note is that all Permissions are prefixed with `easyadmin` automatically, so `your.custom.permission` becomes `easyadmin.your.custom.permission`
+
+You can then use the permission you added by simply checking it Server-Side using `DoesPlayerHavePermission(source, "easyadmin.your.custom.permission")` or Clientside using `permissions["trainer.noclip.player"]`, these will return a true/false boolean.
+
 
 ## Recieving Events
 
