@@ -70,7 +70,7 @@ You can then use the permission you added by simply checking it server-side usin
 
 ## Recieving Events
 
-These are the Events that your Script can recieve and use, but should never trigger.
+These are the events that your script can recieve and use, but should never trigger.
 
 
 |                 Event                  | Arguments | Function |
@@ -102,7 +102,7 @@ EasyAdmin has a powerful API with which you can already do lots of things, here 
 
 ## Internal Events
 
-These are Events that EasyAdmin may trigger to internally send informations to the Server or Clients, these may not be up to date, reading the Sourcecode to be sure is recommended.
+These are events that EasyAdmin may trigger to internally send informations to the server or clients, these may not be up to date, reading the source code to be sure is recommended.
 
 | Event | Direction | Arguments |
 |-------|-------|-------|
