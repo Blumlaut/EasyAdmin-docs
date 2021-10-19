@@ -41,6 +41,6 @@ We mainly provide support through our [Support Discord](https://discord.gg/GugyR
 
 ## Contributing
 
-Both EasyAdmin and the wiki can be contribued to via the [Github Repository](https://github.com/Blumlaut/EasyAdmin).
+Both EasyAdmin and the wiki can be contributed to via the [Github Repository](https://github.com/Blumlaut/EasyAdmin).
 
 Spotted a mitsake[sic] or want to expand a page with more infos? Click the "Edit" button at the top right and create a Pull Request! Any contributions are always welcome! ![](https://cdn.discordapp.com/emojis/652536385500086284.png?size=20)
