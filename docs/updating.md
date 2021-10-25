@@ -17,7 +17,7 @@ This page outlines instructions on how to update EasyAdmin between versions.
 
 ### Ban Permission Change
 
-The `player.ban` permission has been changed and now also includes `.edit` and `.unban`
+The `player.ban` permission has been changed and now also includes `.view`, `.edit` and `.unban`
 
 ```diff
 - add_ace group.admin easyadmin.unban allow
@@ -25,6 +25,15 @@ The `player.ban` permission has been changed and now also includes `.edit` and `
 ```
 
 Do note that giving a group `easyadmin.ban` permissions will now also give them permission to edit/unban players.
+
+
+### Reports 'claim' permission
+
+Reports can now be claimed with the `.claim` permission:
+
+```diff
++ add_ace group.moderator easyadmin.player.reports.claim
+```
 
 
 
