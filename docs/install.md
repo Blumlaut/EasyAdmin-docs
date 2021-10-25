@@ -14,7 +14,7 @@ You can adjust the Language and MenuButton here.
 ensure EasyAdmin
 
 setr ea_LanguageName "en"                # set our language to english
-setr ea_MenuButton "F2"		 # set our menu button to F2, this is a one-time setting!
+setr ea_defaultKey "F2"		 # set our menu button to F2, this is a one-time setting!
 
 add_ace group.admin easyadmin allow
 ```

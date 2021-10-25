@@ -5,7 +5,7 @@ Configuration of EasyAdmin is done via convars, these can be set via your server
 
 ```
 setr ea_LanguageName "en"                # set our language to english
-setr ea_MenuButton "F2"			# set our menu button to F2. default: "289"
+setr ea_defaultKey "F2"			# set our menu button to F2. default: "289"
 setr ea_alwaysShowButtons "false"	# we don't want to see buttons we can't even access, do we? default: "false"
 set ea_moderationNotification "false"   # this can be either "false" or a discord webhook address, this will send a discord message if an admin takes actions against a player  ( such as banning and kicking )
 set ea_custombanlist "false"            # read docs for this, dont touch it
@@ -21,7 +21,7 @@ set ea_enableReportCommand "true"
 |       Command/Convar        |  Type   |                                   Usage                                    |                                                                                                                Description                                                                                                                 |
 |-----------------------------|---------|----------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ea_LanguageName             | Convar  | `setr ea_LanguageName "en"`                                                | This Convars dictates in which language EasyAdmin is displayed ( this includes but is not limited to GUI, Kick Messages, Reasons, Hud Elements.. ) Available options: cs, de, en, es, fr, it, nl, pl, pt, sv                                                  |
-| ea_MenuButton               | Convar  | FiveM: `setr ea_MenuButton "F2"` RedM: `setr ea_MenuButton "PhotoModePc"` | Key which is used to open the Menu, [FiveM Keys](https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/), [RedM Keys](https://github.com/Blumlaut/EasyAdmin/blob/master/dependencies/Controls.lua#L3)                                            |
+| ea_defaultKey               | Convar  | FiveM: `setr ea_MenuButton "F2"` RedM: `setr ea_MenuButton "PhotoModePc"` | Key which is used to open the Menu, [FiveM Keys](https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/), [RedM Keys](https://github.com/Blumlaut/EasyAdmin/blob/master/dependencies/Controls.lua#L3)                                            |
 | ea_minIdentifierMatches     | Convar  | `set ea_minIdentifierMatches 2`                                            | The Minimum Amount of Identifiers that have to match before a Player gets "Declined" for being banned. Never put this below 1. If some form of Proxy is used on the server, you should add 1 to this number for every Proxy IP                                                                                                            |
 
 ## Webhook & Screenshot Configuration
