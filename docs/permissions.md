@@ -41,6 +41,7 @@ This will allow **all** permissions for the "admin" group.
 | easyadmin.player.warn              | Allows to "Warn" other Players.                                                                         |
 | easyadmin.player.screenshot        | Allows to Create Screenshots of users, these will be generated and uploaded to your Configured Uploader |
 | easyadmin.player.reports.view		 | Allows Admins to View Reports made by Users															          |
+| easyadmin.player.reports.claim		 | Allows Admins to Claim Reports made by Users															          |
 | easyadmin.player.reports.process	 | Allows to Delete Reports made by Users													              |
 | easyadmin.server.shortcut.add      | Allows to use the ea_addShortcut command, however, these are not persistant							  |
 | easyadmin.server.reminder.add      | Allows to use the ea_addReminder command, these are also not persistan                                  |
