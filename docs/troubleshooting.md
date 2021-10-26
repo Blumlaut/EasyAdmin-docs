@@ -1,40 +1,28 @@
 # Basic Troubleshooting
 
 
-## Help, i'm getting an Error!
+## My EasyAdmin only opens if i press and hold the menu key.
 
-```
-Error resuming coroutine: admin_server.lua:496: bad argument #1 to 'for iterator' (table expected, got nil)
-stack traceback:
-        [C]: in for iterator 'for iterator'
-        admin_server.lua:496: in function 'updateBlacklist'
-        admin_server.lua:608: in function 'loopUpdateBlacklist'
-        admin_server.lua:618: in function <admin_server.lua:23>
-```
-Solution:
-Your banlist.json file has a formatting error, if it's empty, delete it, if there are bans inside of it, use a [json validator](https://jsonformatter.curiousconcept.com/) and fix any errors inside of the file.
+Most likely one of your keybinds are messed up, delete any lines mentioning `EasyAdmin` in this file: `%appdata%/CitizenFX/fivem.cfg`
 
-## What about this one?
+## I can't connect, EasyAdmin says to contact an administrator , what do i do?
 
-```
-Error resuming coroutine: citizen:/scripting/lua/json.lua:397: bad argument #1 to 'strfind' (string expected, got nil)
-stack traceback:
-        [C]: in function 'string.find'
-        citizen:/scripting/lua/json.lua:397: in upvalue 'scanwhite'
-        citizen:/scripting/lua/json.lua:553: in function <citizen:/scripting/lua/json.lua:551>
-        (...tail calls...)
-        admin_server.lua:24: in function <admin_server.lua:23>
-```
+Your Banlist has an error, most likely due to an edit that broke the formatting, use a JSON Validator and fix the Formatting inside the file, or remove any broken bans.
 
-Solution: The language file you set in the ea_LanguageName Convar does not exist in EasyAdmin\language, change it to one that exists.
+## I changed the menu key, but its still the old one?
+
+Since 6.2 the Menu Key is only a default for FiveM Keybinds, change it in your Ingame Controls, in the "FiveM" Category
+
+## I found a bug, where do i report it?
+
+https://github.com/Blumlaut/EasyAdmin/issues
+
+## I gave myself Admin Permissions, but i cant open the menu
+
+Add `setr ea_logLevel 3` to your server config and restart the Server, then try connecting, EasyAdmin will show which permissions it's aware of, if your permissions all return `false` then you did something wrong.
 
 
-## My Permissions dont work right/I cant open the Menu!
-Add
-```
-setr ea_logLevel 3
-```
+Join the Support Discord and follow [This Guide](https://easyadmin.readthedocs.io/en/latest/supportfile/).
 
-To your server.cfg, reboot the server and then join, EasyAdmin will now print all permissions for the joined user, these are the permissions that easyadmin can see via ACE, double check your configured permission and correct it accordingly.
 
 ## Getting a different problem? Join the [Support Discord](https://discord.gg/GugyRU8)! 
