@@ -1,4 +1,4 @@
-# Basic Troubleshooting
+# Frequent Issues, Questions & Answers
 
 
 ## My EasyAdmin only opens if i press and hold the menu key.
