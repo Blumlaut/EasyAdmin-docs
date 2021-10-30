@@ -17,7 +17,7 @@ This page outlines instructions on how to update EasyAdmin between versions.
 
 ### Ban Permission Change
 
-The `player.ban` permission has been changed and now also includes `.view`, `.edit` and `.unban`
+The `player.ban` permission has been changed and now also includes `.view`, `.edit` and `.remove`
 
 ```diff
 - add_ace group.admin easyadmin.unban allow
