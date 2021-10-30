@@ -75,6 +75,9 @@ You can then use the permission you added by simply checking it server-side usin
 
 EasyAdmin supports replacing the native Notifications with custom ones, to do this the `EasyAdmin:receivedNotification` event has to be cancelled and the text from `EasyAdmin:showNotification` to be forwarded to your Notification Script, for examples see [EasyAdmin/plugins/notifications](https://github.com/Blumlaut/EasyAdmin/tree/master/plugins/notifications)
 
+**Do you have two different notification systems being triggered at the same time?**
+Choose which notification system you want to keep, and remove the other scripts in the [plugins folder](https://github.com/Blumlaut/EasyAdmin/tree/master/plugins/notifications)
+
 ## Recieving Events
 
 These are the events that your script can recieve and use, but should never trigger.
