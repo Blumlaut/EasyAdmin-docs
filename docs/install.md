@@ -19,7 +19,7 @@ setr ea_defaultKey "F2"		 # set our menu button to F2, this is a one-time settin
 add_ace group.admin easyadmin allow
 ```
 
-## Adding yourself as an Admin
+## Adding an Admin
 
 ### ZAP Hosting (non-txAdmin)
 Enter your Steam ID in the Settings Page under Admins, add a new line for each SteamId.
