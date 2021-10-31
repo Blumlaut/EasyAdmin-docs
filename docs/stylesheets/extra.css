@@ -18,3 +18,7 @@
 .md-sidebar {
 	padding-top: 0.4rem;
 }
+
+.md-nav--integrated > .md-nav__list > .md-nav__item--active .md-nav--secondary {
+	border-left: .05rem solid #575757;
+}
