@@ -43,8 +43,9 @@ You can use any Identifier available in FiveM for this, however, in this example
 add_principal identifier.steam:1100001000056ba group.admin
 ```
 
+After installing EasyAdmin, start EasyAdmin and join your Server, once you are connected enter `ea_printIdentifiers 1` in your Server Console, 1 represents your ingame ID, so make sure you use the correct id, EasyAdmin will then print a list of your identifiers:
+![grafik](https://user-images.githubusercontent.com/13604413/139588546-a64da751-7f1c-41ae-8abd-f6c7e7b0735e.png)
 
-You can get your `HexID` from [vacbanned.com](http://www.vacbanned.com/) by typing in your steam URL.
 
 To use Steam IDs as an identifier, a Steam WebAPIKey needs to be set up. Follow this [guide](steamapikey.md) to create one.
 
