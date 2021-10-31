@@ -39,15 +39,19 @@ add_principal identifier.IDENTIFIERNAME:IDENTIFIER group.admin
 
 You can use any Identifier available in FiveM for this, however, in this example we will describe how to use your Steam ID.
 
-```
-add_principal identifier.steam:1100001000056ba group.admin
-```
+
+To use Steam IDs as an identifier, a Steam WebAPIKey needs to be set up. Follow this [guide](steamapikey.md) to create one.
+
 
 After installing EasyAdmin, start EasyAdmin and join your Server, once you are connected enter `ea_printIdentifiers 1` in your Server Console, 1 represents your ingame ID, so make sure you use the correct id, EasyAdmin will then print a list of your identifiers:
 ![grafik](https://user-images.githubusercontent.com/13604413/139588546-a64da751-7f1c-41ae-8abd-f6c7e7b0735e.png)
 
+we can now simply fill out the value described above, it will look like this:
 
-To use Steam IDs as an identifier, a Steam WebAPIKey needs to be set up. Follow this [guide](steamapikey.md) to create one.
+```
+add_principal identifier.steam:1100001018c7433 group.admin
+```
+
 
 You can also use other identifiers, as EasyAdmin is not specifically limited to SteamIDs, all available identifiers can be used, such as `discord`, `xbl` or `license`, to name a few examples.
 
