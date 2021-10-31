@@ -51,7 +51,7 @@ nav:
         - 'config.md'
         - 'permissions.md'
     - 'Guides':
-        - 'install.md#adding-yourself-as-an-admin'
+        - 'install/#adding-yourself-as-an-admin'
         - 'steamapikey.md'
         - 'webhook.md'
         - 'discord-screenshots.md'
