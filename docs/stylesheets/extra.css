@@ -1,9 +1,9 @@
 .md-grid {
-	max-width: 1600px;
+	max-width: 85%;
 }
 
 .md-nav {
-	font-size: .75rem;
+	font-size: .73rem;
 	line-height: 1.35;
 }
 
@@ -14,4 +14,7 @@
 .md-header__button.md-logo img, .md-header__button.md-logo svg {
     height: 2rem;
     width: 2rem;
+}
+.md-sidebar {
+	padding-top: 0rem;
 }
