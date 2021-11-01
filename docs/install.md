@@ -4,7 +4,7 @@ Install it like any other Resource.
 
 Simply Drag&Drop your `EasyAdmin` folder into the `resources` folder of your Server.
 
-## Configuration
+## Getting Started
 
 To get started with EasyAdmin, simply copypaste this template into your `server.cfg` file.
 
