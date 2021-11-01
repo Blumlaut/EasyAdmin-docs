@@ -41,7 +41,8 @@ theme:
     - navigation.top
     - search.highlight
     - toc.integrate
-    - navigation.expand
+
+
 extra_css:
   - stylesheets/extra.css
 
