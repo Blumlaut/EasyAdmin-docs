@@ -1,23 +1,31 @@
 # Frequent Issues, Questions & Answers
 
-
-## My EasyAdmin only opens if i press and hold the menu key.
-
-Most likely one of your keybinds are messed up, delete any lines mentioning `EasyAdmin` in this file: `%appdata%/CitizenFX/fivem.cfg`
-
-## I can't connect, EasyAdmin says to contact an administrator , what do i do?
-
-Your Banlist has an error, most likely due to an edit that broke the formatting, use a JSON Validator and fix the Formatting inside the file, or remove any broken bans.
-
-## I changed the menu key, but its still the old one?
+### I changed the menu key, but its still the old one?
 
 Since 6.2 the Menu Key is only a default for FiveM Keybinds, change it in your Ingame Controls, in the "FiveM" Category
 
-## I found a bug, where do i report it?
+### EasyAdmins deferral is conflicting with my adaptive card!
+
+If your EasyAdmin is conflicting with another adaptive card resource, you can try adding
+```
+set ea_presentDeferral "false"
+```
+to your server config, this will disable the progress display after EasyAdmin defers the connection and hopefully fix the flicker.
+
+### My EasyAdmin only opens if i press and hold the menu key.
+
+Most likely one of your keybinds are messed up, delete any lines mentioning `EasyAdmin` in this file: `%appdata%/CitizenFX/fivem.cfg`
+
+### I can't connect, EasyAdmin says to contact an administrator , what do i do?
+
+Your Banlist has an error, most likely due to an edit that broke the formatting, use a JSON Validator and fix the Formatting inside the file, or remove any broken bans.
+
+
+### I found a bug, where do i report it?
 
 https://github.com/Blumlaut/EasyAdmin/issues
 
-## I gave myself Admin Permissions, but i cant open the menu
+### I gave myself Admin Permissions, but i cant open the menu
 
 Add `setr ea_logLevel 3` to your server config and restart the Server, then try connecting, EasyAdmin will show which permissions it's aware of, if your permissions all return `false` then you did something wrong.
 
