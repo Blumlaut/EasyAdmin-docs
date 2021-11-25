@@ -3,19 +3,19 @@
 
 You can modify Permissions by using ACE in your server config file, each permission can either have a `allow` or `deny` value, you can add infinite groups, just make sure to add permissions for each group.
 
+Here is a set of example permissions that limit users in the "moderator" group to only kick, spectate, teleport, slap and freeze permissions:
 ```
-add_ace group.moderator easyadmin.player.kick allow				# allow kicking
-add_ace group.moderator easyadmin.player.spectate allow			# allow spectating
-add_ace group.moderator easyadmin.player.teleport allow			# allow teleportation
-add_ace group.moderator easyadmin.player.slap allow			# allow slapping 
-add_ace group.moderator easyadmin.player.freeze allow			# allow freezing
+add_ace group.moderator easyadmin.player.kick allow
+add_ace group.moderator easyadmin.player.spectate allow
+add_ace group.moderator easyadmin.player.teleport allow
+add_ace group.moderator easyadmin.player.slap allow
+add_ace group.moderator easyadmin.player.freeze allow
 ```
 
-you can also allow all permissions by writing:
+you can also allow all permissions by allowing the entire `easyadmin` category:
 ```
 add_ace group.admin easyadmin allow
 ```
-This will allow **all** permissions for the "admin" group. 
 
 **Note:** This will also make you immune from being kicked/banned as it grants you the `easyadmin.immune` permission. 
 
