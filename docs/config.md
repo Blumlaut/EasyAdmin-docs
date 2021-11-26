@@ -1,4 +1,4 @@
-# Configuring EasyAdmin
+# EasyAdmin
 
 Configuration of EasyAdmin is done via convars, these can be set via your server config file or by typing it as a command inside your servers' console ( this method may not always work with EasyAdmin and the settings will reset after the server has been restarted. )
 
