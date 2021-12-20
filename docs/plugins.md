@@ -78,6 +78,25 @@ EasyAdmin supports replacing the native Notifications with custom ones, to do th
 **Do you have two different notification systems being triggered at the same time?**
 Choose which notification system you want to keep, and remove the other scripts in the [plugins folder](https://github.com/Blumlaut/EasyAdmin/tree/master/plugins/notifications)
 
+
+## Utility Functions
+
+EasyAdmin ships with some Utility functions that can be run in Plugins, here is a table of examples:
+
+| Function | Arguments | Description |
+|-------|-------|-------|
+| PrintDebugMessage | content, level | Prints a message in the client/server log, depending on if their ea_logLevel matches or is above the level provided |
+| displayKeyboardInput | title,defaultText,maxLength | added in EasyAdmin 6.4, displays a keyboard, executing this function halts execution, make sure to run this in a thread if you want to run it asynchronously |
+| copyToClipboard | text | Pastes a text to player's clipboard |
+| DoesPlayerHavePermission | player, permission | returns weither or not a player has a permission, for example `player.ban.view` |
+| DoesPlayerHavePermissionForCategory | player, permission | Same as above, but checks if player has **any** permission in that category, for example `player.ban` |
+| GetVersion | N/A | Returns 2 variables, Version string and if EasyAdmin was cloned from master instead of downloading a release |
+| GetLocalisedText | string | returns a translated string for a language variable. |
+| formatDateString | unix timestamp | Converts a unix timestamp into a Time/Datestring |
+| math.round | number, decimals | rounds a number to the amount of decimals |
+| string.split | string, seperator | splits a string via the given seperator |
+| string.reverse | string | gnirts a sesrever |
+
 ## Recieving Events
 
 These are the events that your script can recieve and use, but should never trigger.
