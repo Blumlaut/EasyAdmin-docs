@@ -37,7 +37,7 @@ end)
 
 
 AddEventHandler("EasyAdmin:BuildCachedOptions", function(playerId) -- Options for Cached Players, do note that these do not not support Player natives! They're cached BY EASYADMIN
--- uses thisPlayer as menu
+-- uses thisCachedPlayer as menu
 end)
 
 AddEventHandler("EasyAdmin:BuildServerManagementOptions", function() -- Options for the Server Management Submenu, passes nothing.
