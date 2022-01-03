@@ -1,7 +1,9 @@
 # Permissions
 
 
-You can modify Permissions by using ACE in your server config file, each permission can either have a `allow` or `deny` value, you can add infinite groups, just make sure to add permissions for each group.
+You can modify Permissions by using ACE in your server config file, each permission can be have an `allow` value or be denied by not including permission at all, you can add infinite groups, just make sure to add permissions for each group. 
+
+**Note:** Do NOT deny permissions using `deny` this is broken and will not work.
 
 Here is a set of example permissions that limit users in the "moderator" group to only kick, spectate, teleport, slap and freeze permissions:
 ```
