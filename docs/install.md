@@ -21,10 +21,6 @@ add_ace group.admin easyadmin allow
 
 ## Adding an Admin
 
-=== "ZAP-Hosting"
-    
-    Enter your Steam ID (64, not Hex) in the Settings Page under Admins, add a new line for each SteamId.
-
 === "Manually"
 
 	You can use this template to fill out your desired Values
@@ -51,3 +47,7 @@ add_ace group.admin easyadmin allow
 
 
 	You can also use other identifiers, as EasyAdmin is not specifically limited to SteamIDs, all available identifiers can be used, such as `discord`, `xbl` or `license`, to name a few examples.
+
+=== "ZAP-Hosting"
+    
+    Enter your Steam ID (64, not Hex) in the Settings Page under Admins, add a new line for each SteamId.
