@@ -54,7 +54,7 @@ AddEventHandler("EasyAdmin:MenuRemoved", function() -- this triggers if a player
 end)
 ```
 
-## Adding new Permissions
+### Adding new Permissions
 
 Permissions can be added to EasyAdmin by making a `shared` file using the following boilerplate:
 ```Lua
@@ -79,7 +79,9 @@ EasyAdmin supports replacing the native Notifications with custom ones, to do th
 Choose which notification system you want to keep, and remove the other scripts in the [plugins folder](https://github.com/Blumlaut/EasyAdmin/tree/master/plugins/notifications)
 
 
-## Utility Functions
+## Functions and Events
+
+### Utility Functions
 
 EasyAdmin ships with some Utility functions that can be run in Plugins, here is a table of examples:
 
@@ -97,7 +99,7 @@ EasyAdmin ships with some Utility functions that can be run in Plugins, here is 
 | string.split | string, seperator | splits a string via the given seperator |
 | string.reverse | string | gnirts a sesrever |
 
-## Recieving Events
+### Recieving Events
 
 These are the events that your script can recieve and use, but should never trigger.
 
@@ -110,7 +112,7 @@ These are the events that your script can recieve and use, but should never trig
 | EasyAdmin:BuildSettingsOptions         | none      | This event is meant to be used for adding menu options to the "Settings" Submenu, the menu is called "settingsMenu"                                                                                    |
 | EasyAdmin:MenuRemoved                  | none      | This event is used when the EasyAdmin Menu is closed and/or Removed, this happens if the menu is closed and not active. This can trigger multiple times in a row so be careful what code you put here. |
 
-## Sending Events
+### Sending Events
 
 EasyAdmin has a powerful API with which you can already do lots of things, here are a few Server Events which you can Trigger:
 
@@ -129,7 +131,7 @@ EasyAdmin has a powerful API with which you can already do lots of things, here 
 | EasyAdmin:mutePlayer   		  | playerId                           | none               | Toggles a Mute on a Player. |
 
 
-## Internal Events
+### Internal Events
 
 These are events that EasyAdmin may trigger to internally send informations to the server or clients, these may not be up to date, reading the source code to be sure is recommended.
 
