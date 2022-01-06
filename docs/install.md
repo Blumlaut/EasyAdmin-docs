@@ -49,5 +49,7 @@ add_ace group.admin easyadmin allow
 	You can also use other identifiers, as EasyAdmin is not specifically limited to SteamIDs, all available identifiers can be used, such as `discord`, `xbl` or `license`, to name a few examples.
 
 === "ZAP-Hosting"
+
+    > Note: This **only** works for ZAP-Hosting's FiveM Windows or Linux Server see the "Manually" Tab for txAdmin
     
     Enter your Steam ID (64, not Hex) in the Settings Page under Admins, add a new line for each SteamId.
