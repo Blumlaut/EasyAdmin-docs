@@ -1,6 +1,6 @@
 # Reason Shortcuts
 
-As of EasyAdmin 6.02 there is a feature called "Reason Shortcuts".
+As of 6.02, EasyAdmin can resolve abbreviated reasons into longer texts.
 
 These shortcuts can be used to make writing reason a lot faster, "Random Deathmatch, please read our rules using /rules" can simply become "rdm", here is an example:
 
@@ -12,5 +12,7 @@ These shortcuts can be used to make writing reason a lot faster, "Random Deathma
 | `ea_addShortcut stfu Please be respectful in Voice&Text Chat! (/rules)`     | `stfu`   | `Please be respectful in Voice&Text Chat! (/rules)`      |
 
 
+The commands have to be added to the server's config file, after EasyAdmin has started.
 
-These shortcuts work in every "reason" field.
+
+These shortcuts work in every "reason" field in the EasyAdmin GUI.
