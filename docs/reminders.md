@@ -5,6 +5,8 @@ EasyAdmin Supports Chat Reminders, these get Sent in the Chat according to `ea_c
 
 `ea_addReminder` is a command, so it needs to be put AFTER EasyAdmin starts in your server.cfg
 
+Following placeholders can be used:
+
 ```
 @admins - Shows all Online Admins in chat, if no admins are online, it just prints @admins
 @bancount - Shows the amount of Bans in the Banlist
@@ -14,7 +16,7 @@ EasyAdmin Supports Chat Reminders, these get Sent in the Chat according to `ea_c
 
 This also supports colour codes from ^1-^9.
 
-Some Example Reminders:
+Example of reminders would be:
 
 ```
 ea_addReminder "This Server is watched by ^3@admins^7"
