@@ -1,19 +1,10 @@
 # Configuration
 
-Configuration of EasyAdmin is done via convars, these can be set via your server config file or by typing it as a command inside your servers' console ( this method may not always work with EasyAdmin and the settings will reset after the server has been restarted. )
+Configuration of EasyAdmin is done via convars, these can be set via your server config file.
 
+You can set a convar by following the syntax in the "usage" field.
 
-```
-setr ea_LanguageName "en"                # set our language to english
-setr ea_defaultKey "F2"			# set our menu button to F2. default: "289"
-setr ea_alwaysShowButtons "false"	# we don't want to see buttons we can't even access, do we? default: "false"
-set ea_moderationNotification "false"   # this can be either "false" or a discord webhook address, this will send a discord message if an admin takes actions against a player  ( such as banning and kicking )
-set ea_custombanlist "false"            # read docs for this, dont touch it
-set ea_enableCallAdminCommand "true"
-set ea_enableReportCommand "true"
-```
-
-
+Note that "sets" and "set" are **not** identical, make sure not to use them interchangably as Convars using "sets" can be read by players on the server.
 
 
 ## Basic Configuration
