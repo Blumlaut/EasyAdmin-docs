@@ -98,6 +98,7 @@ EasyAdmin ships with some Utility functions that can be run in Plugins, here is 
 | math.round | number, decimals | rounds a number to the amount of decimals |
 | string.split | string, seperator | splits a string via the given seperator |
 | string.reverse | string | gnirts a sesrever |
+| UIMenu:RefreshIndexRecursively() | N/A | Refreshes the Indices of the Menu and (if any) Child Menus, forcing the cursor to reset in those menus, this is required when adding/removing items while the menu is open.  |
 
 ### Recieving Events
 
