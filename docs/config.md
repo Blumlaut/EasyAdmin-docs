@@ -72,6 +72,7 @@ Note that "sets" and "set" are **not** identical, make sure not to use them inte
 | ea_addReminder              | Command | `ea_addReminder "Online Admins: ^3@admins^7"`                              | **Make sure to add this parameter BELOW the EasyAdmin start line, otherwise it won't work** Adds a Reminder Text to the pool of available options, can support infinite reminders, [More detailed informations](reminders.md)                                           |
 | ea_playerCacheExpiryTime    | Convar  | `set ea_playerCacheExpiryTime 900`                                         | Defines, in seconds, how long it takes for a Cached Player to get removed from Cache, 30 Minutes by Default, however, higher Values are recommended for sparsely Moderated Servers, should not exceed a few hours for performance reasons. |
 | ea_addShortcut    		  | Command | `ea_addShortcut rdm RDMing is not allowed, please read our Rules! (/rules)`| Creates a shortcut for a reason. [More detailed informations](shortcuts.md) |
+| ea_enableChat | Command | `set ea_enableChat "false"` | Toggles EasyAdmin's own Admin Chat on/off |
 
 
 ## Advanced Configuration
