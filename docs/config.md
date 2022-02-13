@@ -4,7 +4,7 @@ Configuration of EasyAdmin is done via convars, these can be set via your server
 
 You can set a convar by following the syntax in the "usage" field.
 
-Note that "setr" and "set" are **not** identical, make sure not to use them interchangably as Convars using "sets" can be read by players on the server.
+Note that "setr" and "set" are **not** identical, make sure not to use them interchangably as Convars using "setr" can be read by players on the server.
 
 
 ## Basic Configuration
