@@ -15,7 +15,9 @@ ensure EasyAdmin
 add_ace group.admin easyadmin allow
 ```
 
-Configuration options can be found [here](config.md).
+The Menu key is no longer defined using a convar, see [Keybind](https://github.com/Blumlaut/EasyAdmin-docs/blob/main/docs/keybind.md).
+
+More Configuration options can be found [here](config.md).
 
 
 ## Adding an Admin
