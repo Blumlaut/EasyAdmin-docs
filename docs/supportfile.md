@@ -29,7 +29,7 @@ In the bottom line we can then see the path where the Supportfile was saved to, 
 
 ## Uploading the File
 
-Now we simply Drag and Drop it into the `#support-ea` Discord Channel, the bot will then Criticse our file automatically:
+Now we simply Drag and Drop it into our Support Thread, the bot will then check the file automatically:
 
 
 ![](assets/supportfile_discord.gif)
