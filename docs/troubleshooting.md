@@ -1,8 +1,8 @@
 # Frequent Issues, Questions & Answers
 
-### I changed the menu key, but its still the old one?
+### How can i change the menu key?
 
-Since 6.2 the Menu Key is only a default for FiveM Keybinds, change it in your Ingame Controls, in the "FiveM" Category
+[Click](keybind.md)
 
 ### EasyAdmins deferral is conflicting with my adaptive card!
 
