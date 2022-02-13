@@ -8,7 +8,7 @@ Simply Drag&Drop your `EasyAdmin` folder into the `resources` folder of your Ser
 
 To get started with EasyAdmin, simply copypaste this template into your `server.cfg` file.
 
-You can adjust the Language and MenuButton here.
+You can adjust the Language here, other options can be found [here](config.md).
 
 ```
 ensure EasyAdmin
