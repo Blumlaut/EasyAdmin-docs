@@ -15,7 +15,7 @@ ensure EasyAdmin
 add_ace group.admin easyadmin allow
 ```
 
-The Menu key is no longer defined using a convar, see [Keybind](https://github.com/Blumlaut/EasyAdmin-docs/blob/main/docs/keybind.md).
+The Menu key is no longer defined using a convar, see [Keybind](keybind.md).
 
 More Configuration options can be found [here](config.md).
 
