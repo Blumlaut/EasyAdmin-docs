@@ -10,6 +10,7 @@ Here is a list of commands currently implemented in EasyAdmin, including their S
 
 |         Command          |                                                  Description                                                   |
 |-----------------------------|----------------------------------------------------------------------------------------------------------------|
+| easyadmin | Opens the EasyAdmin Menu |
 | kick [playerid] [reason]       | Kicks a player |
 | ban [playerid] [reason]        | Bans a player |
 | spectate [playerid]            | Spectates a player |
