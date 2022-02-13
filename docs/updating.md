@@ -2,6 +2,14 @@
 
 This page outlines instructions on how to update EasyAdmin between versions.
 
+## To 6.5
+
+### ea_defaultKey removal
+
+Due to continued confusion about what `ea_defaultKey` actually does, it has been **removed** in version 6.5, the key is now registered as empty by default and [has to be set through the FiveM Settings individually](keybind.md).
+
+RedM is not affected by this change.
+
 
 ## To 6.3
 
