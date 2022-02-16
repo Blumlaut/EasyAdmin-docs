@@ -55,6 +55,7 @@ add_ace group.admin easyadmin allow
 | easyadmin.server.convars		 | Allows to edit Server Convars, this is a dangerous permission, only assign to people you trust!				  |
 | easyadmin.server.resources.start   | Allows to start Resources on the Server			 													  |
 | easyadmin.server.resources.stop    | Allows to stop Resources on the Server											     				  |
+| easyadmin.server.chat | allows to use the "Admin Chat" Channel |
 | easyadmin.immune            | Prevents from being kicked/banned by other admins.                                                   	      |
 | easyadmin.anon              | Allows the "Anonymous Admin" Feature, will hide Username in Kicks/Bans/Admin Logs                         		      |
 
