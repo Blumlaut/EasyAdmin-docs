@@ -14,7 +14,7 @@ The current feature set includes:
 - Most user actions (kick, (un)ban, mute, freeze, slap, warn)
 - Ability to add and remove principals, allowing discord users to be added to ACE groups on discord, without having to join or edit the server.
 - A live server status, with player count infos, admins online, open&claimed reports, active entities, amount of upvotes assigned to the server and uptime
-- area cleanup for vehicles, peds and objects
+- Area cleanup for vehicles, peds and objects
 - A player list with pagination (fully onesync compatible)
 - A player info display (including identifiers)
 
