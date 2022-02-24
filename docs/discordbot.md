@@ -11,7 +11,7 @@ The Discord Bot ships within EasyAdmin and does not need an external host to run
 
 The current feature set includes:
 
-- most user actions (kick, (un)ban, mute, freeze, slap
+- most user actions (kick, (un)ban, mute, freeze, slap, warn)
 - ability to add and remove principals, allowing discord users to be added to ACE groups on discord, without having to join or edit the server.
 - A live server status, with player count infos, admins online, open&claimed reports, active entities, amount of upvotes assigned to the server and uptime
 - area cleanup for vehicles, peds and objects
