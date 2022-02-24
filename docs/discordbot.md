@@ -21,7 +21,7 @@ The current feature set includes:
 
 ## creating the bot user
 
-To create a bot user, we will head over to https://discord.com/developers/applications and create a new application as shown here:
+To create a bot user, we will head over to [Discord Developer Apps](https://discord.com/developers/applications) and create a new application as shown here:
 
 ![](assets/discordappcreation.gif)
 
