@@ -126,7 +126,7 @@ After rebooting your server, the bot should send it's first log message:
 
 ### live server status
 
-To enable the live server status, create a new channel on your which is read-only to all roles except the bot, this is required as the bot will constantly update it's original message with the new server infos.
+To enable the live server status, create a new channel on your Server which is read-only to all roles except the bot, this is required as the bot will constantly update it's original message with the new server infos.
 
 
 Once you have created the channel and copied it's id, you can configure it with the following convar:
@@ -140,4 +140,15 @@ After rebooting your server, the bot should now post the status message in your 
 ![](https://blumlaut.me/s/YQDZAm9Cjnwpmc5/preview)
 
 
+### chat bridge
 
+> Note: a recent `chat` version from cfx-server-data is required to use the Chat bridge.
+
+The Chat Bridge needs its own Discord Channel, it can be write-able by users, however, do note that messages sent in that Channel will be sent to the FiveM Server!
+
+
+```
+set ea_botChatBridge "ChannelId"
+```
+
+Once the Convar has been configured, Chat Messages sent into the Discord Channel will be sent into the FiveM Server's chat, and vice versa.
