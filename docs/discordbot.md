@@ -1,18 +1,18 @@
 # Discord Bot
 
-EasyAdmin 6.6 ships with a Discord Bot that allows admins to manage their server entirely from Discord.
+EasyAdmin 6.6 ships with a Discord bot that allows admins to manage their server entirely from Discord.
 
 ![](https://blumlaut.me/s/YQDZAm9Cjnwpmc5/preview)
 
 
 ## Features
 
-The Discord Bot ships within EasyAdmin and does not need an external host to run on, this is beneficial for people running a containerized FiveM server, or are renting a server with ZAP-Hosting, as these can simply use the bot within their FiveM server.
+The Discord bot ships within EasyAdmin and does not need an external host to run on, this is beneficial for people running a containerized FiveM server, or are renting a server with ZAP-Hosting, as these can simply use the bot within their FiveM server.
 
 The current feature set includes:
 
-- most user actions (kick, (un)ban, mute, freeze, slap, warn)
-- ability to add and remove principals, allowing discord users to be added to ACE groups on discord, without having to join or edit the server.
+- Most user actions (kick, (un)ban, mute, freeze, slap, warn)
+- Ability to add and remove principals, allowing discord users to be added to ACE groups on discord, without having to join or edit the server.
 - A live server status, with player count infos, admins online, open&claimed reports, active entities, amount of upvotes assigned to the server and uptime
 - area cleanup for vehicles, peds and objects
 - A player list with pagination (fully onesync compatible)
@@ -53,7 +53,7 @@ Fill out your bot token you got from the discord developer page, to get your gui
 
 ![](assets/discorddevmode.gif)
 
-Now simply start EasyAdmin, if everything went correctly you should see a
+Now simply start EasyAdmin, if everything went correctly you should see:
 
 ```
 [    script:EasyAdmin] Logged in as BotName#1234!
@@ -61,7 +61,7 @@ Now simply start EasyAdmin, if everything went correctly you should see a
 
 Message appear in your console and the bot should show as "online" on your discord server.
 
-> The owner of the discord server will automatically have all permissions to the bot, for other Admins these need to be assigned manually (`easyadmin.bot`)
+> The owner of the discord server will automatically have all permissions to the bot, for other admins these need to be assigned manually (`easyadmin.bot`)
 
 To test if the bot is working properly, you can run `/playerlist`, the output should look something like this:
 
@@ -73,7 +73,7 @@ To test if the bot is working properly, you can run `/playerlist`, the output sh
 
 Unlike the EasyAdmin gui, the bot permissions are all contained within the `easyadmin.bot` category, this allows restricting groups to have to do actions on the server, instead of using discord, where exact actions may not be reproducable due to changing usernames.
 
-a list of current permissions is:
+A list of current permissions is:
 
 ```
 easyadmin.bot.add_ace
@@ -93,7 +93,7 @@ easyadmin.bot.unfreeze
 easyadmin.bot.unmute
 ```
 
-for default permissions for normal admins, which are not meant to change permissions, we recommend the following preset:
+For default permissions for normal admins, which are not meant to change permissions, we recommend the following preset:
 
 
 ```
@@ -126,7 +126,7 @@ After rebooting your server, the bot should send it's first log message:
 
 ### Live server status
 
-To enable the live server status, create a new channel on your Server which is read-only to all roles except the bot, this is required as the bot will constantly update it's original message with the new server infos.
+To enable the live server status, create a new channel on your server which is read-only to all roles except the bot, this is required as the bot will constantly update it's original message with the new server infos.
 
 
 Once you have created the channel and copied it's id, you can configure it with the following convar:
@@ -142,13 +142,13 @@ After rebooting your server, the bot should now post the status message in your 
 
 ### Chat bridge
 
-> Note: a recent `chat` version from cfx-server-data is required to use the Chat bridge.
+> Note: a recent `chat` version from cfx-server-data is required to use the chat bridge.
 
-The Chat Bridge needs its own Discord Channel, it can be write-able by users, however, do note that messages sent in that Channel will be sent to the FiveM Server!
+The chat bridge needs its own Discord channel, it can be write-able by users, however, do note that messages sent in that channel will be sent to the FiveM server!
 
 
 ```
 set ea_botChatBridge "ChannelId"
 ```
 
-Once the Convar has been configured, Chat Messages sent into the Discord Channel will be sent into the FiveM Server's chat, and vice versa.
+Once the convar has been configured, chat messages sent into the Discord channel will be sent into the FiveM server's chat, and vice versa.
