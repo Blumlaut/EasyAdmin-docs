@@ -5,7 +5,7 @@ EasyAdmin 6.6 ships with a Discord Bot that allows admins to manage their server
 ![](https://blumlaut.me/s/YQDZAm9Cjnwpmc5/preview)
 
 
-## features
+## Features
 
 The Discord Bot ships within EasyAdmin and does not need an external host to run on, this is beneficial for people running a containerized FiveM server, or are renting a server with ZAP-Hosting, as these can simply use the bot within their FiveM server.
 
@@ -19,13 +19,13 @@ The current feature set includes:
 - A player info display (including identifiers)
 
 
-## creating the bot user
+## Creating the bot user
 
 To create a bot user, we will head over to [Discord Developer Apps](https://discord.com/developers/applications) and create a new application as shown here:
 
 ![](assets/discordappcreation.gif)
 
-## inviting the bot
+## Inviting the bot
 
 To invite the bot to your discord server, copy the following link:
 
@@ -40,7 +40,7 @@ Replace `MY_BOT_ID` with your bot's application id from here:
 Then simply open the link and invite the bot to your discord server!
 
 
-## configuring the Bot
+## Configuring the Bot
 
 To actually have EasyAdmin log into the bot, we need to configure the following convars:
 
@@ -69,7 +69,7 @@ To test if the bot is working properly, you can run `/playerlist`, the output sh
 ![](https://blumlaut.me/s/tp2DQC4y9YpC29n/preview)
 
 
-## configuring permissions
+## Configuring permissions
 
 Unlike the EasyAdmin gui, the bot permissions are all contained within the `easyadmin.bot` category, this allows restricting groups to have to do actions on the server, instead of using discord, where exact actions may not be reproducable due to changing usernames.
 
@@ -109,10 +109,10 @@ add_ace group.admin easyadmin.bot.unmute allow
 
 
 
-## extra features
+## Extra features
 
 
-### bot logging channel
+### Bot logging channel
 
 To create a log channel for the bot, simply copy the channel id (right click, Copy ID) and add the following convar to your server.cfg:
 
@@ -124,7 +124,7 @@ After rebooting your server, the bot should send it's first log message:
 
 ![](https://blumlaut.me/s/Moa3pgyFXyeAgF2/preview)
 
-### live server status
+### Live server status
 
 To enable the live server status, create a new channel on your Server which is read-only to all roles except the bot, this is required as the bot will constantly update it's original message with the new server infos.
 
@@ -140,7 +140,7 @@ After rebooting your server, the bot should now post the status message in your 
 ![](https://blumlaut.me/s/YQDZAm9Cjnwpmc5/preview)
 
 
-### chat bridge
+### Chat bridge
 
 > Note: a recent `chat` version from cfx-server-data is required to use the Chat bridge.
 
