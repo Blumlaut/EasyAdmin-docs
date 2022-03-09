@@ -109,7 +109,7 @@ add_ace group.admin easyadmin.bot.unmute allow
 
 
 
-## Configuring Features
+## Configuring features
 
 
 ### Discord ACE Permissions
