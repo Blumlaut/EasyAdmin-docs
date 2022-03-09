@@ -24,38 +24,39 @@ add_ace group.admin easyadmin allow
 
 
 
-# Possible permissions are:
+# Available permission
 
 |         Permission          |                                                  Description                                                   |
 |-----------------------------|----------------------------------------------------------------------------------------------------------------|
-| easyadmin.player.ban.temporary     | Allows to Temporarily Ban Users                                                                         |
-| easyadmin.player.ban.permanent     | Allows to Permanently Ban Users                                                                         |
-| easyadmin.player.ban.view          | Allows to View Banlist                                                                                  |
-| easyadmin.player.ban.edit          | Allows to Edit Bans                                                                                     |
-| easyadmin.player.ban.remove        | Allows to Unban Users                                                                                   |
-| easyadmin.player.kick              | Allows to Kick Users                                                                                    |
-| easyadmin.player.spectate          | Allows to Spectate Users                                                                                |
-| easyadmin.player.teleport.single   | Allows to Teleport To/From Players                                                                      |
-| easyadmin.player.teleport.everyone | Allows to Teleport *everyone* at once.                                                                  |
-| easyadmin.player.slap              | Allows Slapping of Users (take away hp)                                                                        |
-| easyadmin.player.freeze            | Allows to Freeze Players in place                                                                       |
-| easyadmin.player.mute              | Allows to "Mute" other Players from chat activity.                                                      |
-| easyadmin.player.warn              | Allows to "Warn" other Players.                                                                         |
-| easyadmin.player.screenshot        | Allows to Create Screenshots of users, these will be generated and uploaded to your Configured Uploader |
-| easyadmin.player.reports.view		 | Allows Admins to View Reports made by Users															          |
-| easyadmin.player.reports.claim		 | Allows Admins to Claim Reports made by Users															          |
-| easyadmin.player.reports.process	 | Allows to Delete Reports made by Users													              |
-| easyadmin.server.shortcut.add      | Allows to use the ea_addShortcut command, however, these are not persistant							  |
-| easyadmin.server.reminder.add      | Allows to use the ea_addReminder command, these are also not persistan                                  |
-| easyadmin.server.permissions.read  | Allows to view all (add_ace & add_principal) Permissions the server has configured                      |
-| easyadmin.server.permissions.write | Allows to edit and delete (add_ace & add_principal) Permissions                                         |
-| easyadmin.server.cleanup.cars		 | Allows to cleanup all Vehicles on the Server, except ones currently occupied by players		  		  |
-| easyadmin.server.cleanup.props	 | Allows to cleanup all Props on the Server, including ones spawned by resources or hacks, does not include maps |
-| easyadmin.server.cleanup.peds		 | Allows to cleanup all Peds on the Server																  |
-| easyadmin.server.convars		 | Allows to edit Server Convars, this is a dangerous permission, only assign to people you trust!				  |
-| easyadmin.server.resources.start   | Allows to start Resources on the Server			 													  |
-| easyadmin.server.resources.stop    | Allows to stop Resources on the Server											     				  |
+| easyadmin.player.ban.temporary | Allows to Temporarily Ban Users |
+| easyadmin.player.ban.permanent | Allows to Permanently Ban Users |
+| easyadmin.player.ban.view | Allows to View Banlist |
+| easyadmin.player.ban.edit | Allows to Edit Bans |
+| easyadmin.player.ban.remove | Allows to Unban Users |
+| easyadmin.player.kick | Allows to Kick Users |
+| easyadmin.player.spectate | Allows to Spectate Users |
+| easyadmin.player.teleport.single | Allows to Teleport To/From Players |
+| easyadmin.player.teleport.everyone | Allows to Teleport *everyone* at once. |
+| easyadmin.player.slap | Allows Slapping of Users (take away hp) |
+| easyadmin.player.freeze | Allows to Freeze Players in place |
+| easyadmin.player.mute | Allows to "Mute" other Players from chat activity. |
+| easyadmin.player.warn | Allows to "Warn" other Players. |
+| easyadmin.player.screenshot | Allows to Create Screenshots of users, these will be generated and uploaded to your Configured Uploader |
+| easyadmin.player.reports.view | Allows Admins to View Reports made by Users |
+| easyadmin.player.reports.claim | Allows Admins to Claim Reports made by Users |
+| easyadmin.player.reports.process | Allows to Delete Reports made by Users |
+| easyadmin.server.shortcut.add | Allows to use the ea_addShortcut command, however, these are not persistant |
+| easyadmin.server.reminder.add | Allows to use the ea_addReminder command, these are also not persistan |
+| easyadmin.server.permissions.read | Allows to view all (add_ace & add_principal) Permissions the server has configured |
+| easyadmin.server.permissions.write | Allows to edit and delete (add_ace & add_principal) Permissions |
+| easyadmin.server.cleanup.cars | Allows to cleanup all Vehicles on the Server, except ones currently occupied by players |
+| easyadmin.server.cleanup.props | Allows to cleanup all Props on the Server, including ones spawned by resources or hacks, does not include maps |
+| easyadmin.server.cleanup.peds | Allows to cleanup all Peds on the Server |
+| easyadmin.server.convars | Allows to edit Server Convars, this is a dangerous permission, only assign to people you trust! |
+| easyadmin.server.resources.start | Allows to start Resources on the Server |
+| easyadmin.server.resources.stop | Allows to stop Resources on the Server |
 | easyadmin.server.chat | allows to use the "Admin Chat" Channel |
-| easyadmin.immune            | Prevents from being kicked/banned by other admins.                                                   	      |
-| easyadmin.anon              | Allows the "Anonymous Admin" Feature, will hide Username in Kicks/Bans/Admin Logs                         		      |
+| easyadmin.immune | Prevents from being kicked/banned by other admins. |
+| easyadmin.anon | Allows the "Anonymous Admin" Feature, will hide Username in Kicks/Bans/Admin Logs |
+| easyadmin.bot.(command name) | Allows Discord User access to a specific bot command, replace (command name) with the actual name |
 
