@@ -136,7 +136,7 @@ These Groups are assigned when a player joins the server, they will sync live if
 
 #### Migrating from third party resources
 
-Migrating from a third party Discord ACE Permission resource is Simple, in this example we will use Badger's DiscordAcePerms resource:
+Migrating from a third party Discord ACE permission resource is simple, in this example we will use Badger's DiscordAcePerms resource:
 
 ```
 {655500055000, "group.moderator"},
