@@ -114,7 +114,7 @@ add_ace group.admin easyadmin.bot.unmute allow
 
 ### Discord ACE Permissions
 
-EasyAdmin's Discord Bot seamlessly integrates discord roles into FiveM's ACE system, these can be used like normal groups:
+EasyAdmin's Discord Bot seamlessly integrates Discord roles into FiveM's ACE system, these can be used like normal groups:
 
 ```
 add_ace role:604749064436711444 easyadmin allow
@@ -132,7 +132,7 @@ add_principal role:604749064436711444 group.admin
 This will cause the discord role id `604749064436711444` to inherit all its permissions from `group.admin`.
 
 
-These Groups are assigned when a player joins the server, they will sync live if a member gets roles assigned or removed.
+These groups are assigned when a player joins the server, they will sync live if a member gets roles assigned or removed.
 
 #### Migrating from third party resources
 
@@ -141,7 +141,7 @@ Migrating from a third party Discord ACE permission resource is simple, in this 
 ```
 {655500055000, "group.moderator"},
 ```
-in the RoleList becomes:
+in the rolelist becomes:
 
 ```
 add_principal role:655500055000 group.moderator
