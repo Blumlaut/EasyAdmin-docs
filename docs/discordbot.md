@@ -134,7 +134,7 @@ This will cause the discord role id `604749064436711444` to inherit all its perm
 
 These Groups are assigned when a player joins the server, they will sync live if a member gets roles assigned or removed.
 
-#### Migrating from third party Discord ACE Permission resources
+#### Migrating from third party resources
 
 Migrating from a third party Discord ACE Permission resource is Simple, in this example we will use Badger's DiscordAcePerms resource:
 
