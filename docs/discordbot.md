@@ -27,7 +27,7 @@ To create a bot user, we will head over to [Discord Developer Apps](https://disc
 
 ## Inviting the bot
 
-To invite the bot to your discord server, copy the following link:
+To invite the bot to your Discord server, copy the following link:
 
 ```
 https://discord.com/oauth2/authorize?scope=applications.commands%20bot&permissions=277562354688&client_id=MY_BOT_ID
@@ -61,7 +61,7 @@ Now simply start EasyAdmin, if everything went correctly you should see:
 
 Message appear in your console and the bot should show as "online" on your discord server.
 
-> The owner of the discord server will automatically have all permissions to the bot, for other admins these need to be assigned manually (`easyadmin.bot`)
+> The owner of the Discord server will automatically have all permissions to the bot, for other admins these need to be assigned manually (`easyadmin.bot`)
 
 To test if the bot is working properly, you can run `/playerlist`, the output should look something like this:
 
@@ -114,7 +114,7 @@ add_ace group.admin easyadmin.bot.unmute allow
 
 ### Discord ACE Permissions
 
-EasyAdmin's Discord Bot seamlessly integrates Discord roles into FiveM's ACE system, these can be used like normal groups:
+EasyAdmin's Discord bot seamlessly integrates Discord roles into FiveM's ACE system, these can be used like normal groups:
 
 ```
 add_ace role:604749064436711444 easyadmin allow
@@ -129,7 +129,7 @@ You can also let roles inherit from existing groups as described here:
 add_principal role:604749064436711444 group.admin
 ```
 
-This will cause the discord role id `604749064436711444` to inherit all its permissions from `group.admin`.
+This will cause the Discord role id `604749064436711444` to inherit all its permissions from `group.admin`.
 
 
 These groups are assigned when a player joins the server, they will sync live if a member gets roles assigned or removed.
