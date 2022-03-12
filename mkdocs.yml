@@ -58,6 +58,7 @@ nav:
         - "Adding Admins": 'install/#adding-an-admin'
         - 'keybind.md'
         - 'steamapikey.md'
+        - 'discordbot.md'
         - 'webhook.md'
         - 'discord-screenshots.md'
         - 'commands.md'

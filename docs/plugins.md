@@ -151,3 +151,6 @@ These are events that EasyAdmin may trigger to internally send informations to t
 | EasyAdmin:SlapPlayer | S->C | Slaps the current Player for the amount of HP |
 | EasyAdmin:FreezePlayer | S->C | Same as above, except Freezing | 
 | EasyAdmin:amiadmin | C->S | Will check all Permissions for a player and send back the permissions in `EasyAdmin:adminresponse` |
+| EasyAdmin:reportAdded | S->S | Passes the report that has been created |
+| EasyAdmin:reportClaimed | S->S | Passes the report that has been claimed | 
+| EasyAdmin:reportRemoved | S->S | Passes the report that has been removed | 

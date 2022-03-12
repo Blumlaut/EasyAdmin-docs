@@ -2,6 +2,10 @@
 
 This page outlines instructions on how to update EasyAdmin between versions.
 
+## To 6.6
+
+EasyAdmin 6.6 requires a recent version of `yarn` from [cfx-server-data](https://github.com/citizenfx/cfx-server-data).
+
 ## To 6.5
 
 ### ea_defaultKey removal

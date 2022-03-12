@@ -22,6 +22,7 @@ More Configuration options can be found [here](config.md).
 
 ## Adding an Admin
 
+
 === "Manually"
 
 	You can use this template to fill out your desired Values
@@ -54,3 +55,9 @@ More Configuration options can be found [here](config.md).
     > Note: This **only** works for ZAP-Hosting's FiveM Windows or Linux Server see the "Manually" Tab for txAdmin
     
     Enter your Steam ID (64, not Hex) in the Settings Page under Admins, add a new line for each SteamId.
+
+=== "Discord ACE Permissions"
+
+	EasyAdmin ships with a Discord Permission implementation by default, to use this, the [Discord Bot](discordbot.md) has to be configured.
+
+	Once the bot has been configured, follow [this guide](https://easyadmin.readthedocs.io/en/6.6/discordbot/#discord-ace-permissions) to set it up.
