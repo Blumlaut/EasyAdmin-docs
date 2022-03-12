@@ -36,6 +36,8 @@ https://discord.com/oauth2/authorize?scope=applications.commands%20bot&permissio
 
 Replace `MY_BOT_ID` with your bot's application id from here:
 
+> If you are getting 401 errors, kick the Bot and invite it again using this link.
+
 ![](https://blumlaut.me/s/zzGgCYfWRYyfDxL/preview)
 
 Then simply open the link and invite the bot to your discord server!
