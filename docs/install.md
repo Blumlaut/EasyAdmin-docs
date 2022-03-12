@@ -58,4 +58,6 @@ More Configuration options can be found [here](config.md).
 
 === "Discord ACE Permissions"
 
-	EasyAdmin ships with a Discord Permission implementation by default, to use this, see the [Discord Bot](discordbot.md) docs page.
+	EasyAdmin ships with a Discord Permission implementation by default, to use this, the [Discord Bot](discordbot.md) has to be configured.
+
+	Once the bot has been configured, follow [this guide](https://easyadmin.readthedocs.io/en/6.6/discordbot/#discord-ace-permissions) to set it up.
