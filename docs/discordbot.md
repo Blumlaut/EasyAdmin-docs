@@ -134,6 +134,7 @@ This will cause the Discord role id `604749064436711444` to inherit all its perm
 
 
 These groups are assigned when a player joins the server, they will sync live if a member gets roles assigned or removed.
+Alternatively, a user can use /refreshperms on Discord to sync their permissions.
 
 #### Migrating from third party resources
 
