@@ -17,6 +17,7 @@ The current feature set includes:
 - Area cleanup for vehicles, peds and objects
 - A player list with pagination (fully onesync compatible)
 - A player info display (including identifiers)
+- A Discord ACE Perms implementation.
 
 
 ## Creating the bot user
