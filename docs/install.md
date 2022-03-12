@@ -22,6 +22,7 @@ More Configuration options can be found [here](config.md).
 
 ## Adding an Admin
 
+
 === "Manually"
 
 	You can use this template to fill out your desired Values
@@ -55,7 +56,6 @@ More Configuration options can be found [here](config.md).
     
     Enter your Steam ID (64, not Hex) in the Settings Page under Admins, add a new line for each SteamId.
 
+=== "Discord ACE Permissions"
 
-## Using Discord ACE Permissions
-
-EasyAdmin ships with a Discord Permission implementation by default, to use this, see the [Discord Bot](discordbot.md) docs page.
+	EasyAdmin ships with a Discord Permission implementation by default, to use this, see the [Discord Bot](discordbot.md) docs page.
