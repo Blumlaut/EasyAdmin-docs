@@ -178,7 +178,7 @@ set ea_botStatusChannel "ChannelId"
 
 After rebooting your server, the bot should now post the status message in your configured channel:
 
-![](https://blumlaut.me/s/YQDZAm9Cjnwpmc5/preview)
+![](https://blumlaut.me/s/JjrkqEqFdNer3do/preview)
 
 
 ### Chat bridge
