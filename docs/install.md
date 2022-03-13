@@ -1,9 +1,12 @@
-# Requirements
+
+# Installing EasyAdmin
+
+
+## Requirements
 
 EasyAdmin **requires** an up-to-date yarn resource from https://github.com/citizenfx/cfx-server-data, if your yarn is outdated you **will** get build errors.
 
-
-# Installing EasyAdmin
+## Installation
 
 Install it like any other Resource.
 
