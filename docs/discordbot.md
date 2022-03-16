@@ -28,6 +28,8 @@ To create a bot user, we will head over to [Discord Developer Apps](https://disc
 
 ## Inviting the bot
 
+> If you are getting 401 errors, kick the Bot and invite it again using this link.
+
 To invite the bot to your Discord server, copy the following link:
 
 ```
@@ -36,7 +38,6 @@ https://discord.com/oauth2/authorize?scope=applications.commands%20bot&permissio
 
 Replace `MY_BOT_ID` with your bot's application id from here:
 
-> If you are getting 401 errors, kick the Bot and invite it again using this link.
 
 ![](https://blumlaut.me/s/zzGgCYfWRYyfDxL/preview)
 
