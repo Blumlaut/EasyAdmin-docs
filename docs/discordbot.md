@@ -196,3 +196,6 @@ set ea_botChatBridge "ChannelId"
 ```
 
 Once the convar has been configured, chat messages sent into the Discord channel will be sent into the FiveM server's chat, and vice versa.
+
+![image](https://user-images.githubusercontent.com/13604413/158560241-106eee4f-a8eb-4ad0-92ab-34a46d216283.png)
+
