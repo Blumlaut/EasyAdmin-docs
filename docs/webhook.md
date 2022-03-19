@@ -1,5 +1,6 @@
 # Discord Webhook
 
+**Note:** The Discord Webhook is not active when Bot Logging is configured.
 
 EasyAdmin Supports Monitoring of Admin Actions by using Discord's Webhook feature, this can be enabled by adding
 
