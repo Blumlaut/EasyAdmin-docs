@@ -168,6 +168,8 @@ After rebooting your server, the bot should send it's first log message:
 
 ![](https://blumlaut.me/s/Moa3pgyFXyeAgF2/preview)
 
+> Note: ea_botLogChannel prioritises over the Webhook, so if you have the Bot Log configured, the Webhook will not work.
+
 ### Live server status
 
 To enable the live server status, create a new channel on your server which is read-only to all roles except the bot, this is required as the bot will constantly update it's original message with the new server infos.
