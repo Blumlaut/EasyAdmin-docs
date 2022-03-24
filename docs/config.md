@@ -63,6 +63,8 @@ Note that "setr" and "set" are **not** identical, make sure not to use them inte
 | ea_botLogChannel | Convar | `set ea_botLogChannel "838749101079658526"` | The Discord Channel the bot will log messages in. |
 | ea_botStatusChannel | Convar | `set ea_botStatusChannel "838749101079658526"` | The Discord Channel will post live server status messages in. |
 | ea_botChatBridge | Convar | `set ea_botChatBridge "838749101079658526"` | The Discord where Ingame and Discord chat will be bridged. |
+| ea_addBotLogForwarding | Command | `ea_addBotLogForwarding joinleave 604747425512685582` | Sends a specific log type into a defined channel. |
+
 
 ## Backup Configuration
 
