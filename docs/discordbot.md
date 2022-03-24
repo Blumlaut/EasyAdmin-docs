@@ -170,6 +170,13 @@ After rebooting your server, the bot should send it's first log message:
 
 > Note: ea_botLogChannel prioritises over the Webhook, so if you have the Bot Log configured, the Webhook will not work.
 
+#### Log Forwarding
+
+To make the bot send specific messages into other channels, you can use the `configure` command, this accepts the same log types as `ea_excludeWebhookFeature`.
+
+![](assets/configurecommand.gif)
+
+
 ### Live server status
 
 To enable the live server status, create a new channel on your server which is read-only to all roles except the bot, this is required as the bot will constantly update it's original message with the new server infos.
