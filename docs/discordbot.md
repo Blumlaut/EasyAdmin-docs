@@ -46,7 +46,7 @@ Then simply open the link and invite the bot to your discord server!
 
 ## Configuring the Bot
 
-To actually have EasyAdmin log into the bot, we need to configure the following convars:
+To actually have EasyAdmin log into the bot, we need to configure the following convars in your server config file:
 
 ```
 set ea_botToken "botToken"
