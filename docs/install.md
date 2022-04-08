@@ -4,11 +4,9 @@
 
 ## Requirements
 
-EasyAdmin **requires** an up-to-date yarn resource from [cfx-server-data](https://github.com/citizenfx/cfx-server-data), if your yarn is outdated you **will** get build errors.
+EasyAdmin **requires** an up-to-date `yarn` resource from [cfx-server-data](https://github.com/citizenfx/cfx-server-data), if your yarn is outdated you **will** get build errors.
 
 ## Installation
-
-Install it like any other Resource.
 
 Simply Drag&Drop your `EasyAdmin` folder into the `resources` folder of your Server.
 
