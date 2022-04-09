@@ -7,7 +7,7 @@ Welcome to the EasyAdmin Docs!
 
 EasyAdmin is a feature-rich and highly customisable Administration Suite for FiveM and RedM Servers.
 
-In this Wiki we explain how to Configure, use and Customize EasyAdmin to your liking, and how to expand EasyAdmin with custom features.
+In these Docs we explain how to Configure, use and Customize EasyAdmin to your liking, and how to expand EasyAdmin with custom features.
 
 ## Features
 
@@ -42,6 +42,6 @@ We mainly provide support through our [Support Discord](https://discord.gg/GugyR
 
 ## Contributing
 
-Both [EasyAdmin](https://github.com/Blumlaut/EasyAdmin) and the [wiki](https://github.com/Blumlaut/EasyAdmin-docs) can be contributed to.
+Both [EasyAdmin](https://github.com/Blumlaut/EasyAdmin) and the [docs](https://github.com/Blumlaut/EasyAdmin-docs) are open source and can be contributed to.
 
 Spotted a mitsake[sic] or want to expand a page with more infos? Click the "Edit" button at the top right and create a Pull Request! Any contributions are always welcome! ![](https://cdn.discordapp.com/emojis/652536385500086284.png?size=20)
