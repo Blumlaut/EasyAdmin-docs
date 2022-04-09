@@ -41,6 +41,7 @@ theme:
     - navigation.instant
     - navigation.tracking
     - navigation.top
+    - navigation.expand
     - search.highlight
     - toc.integrate
 
