@@ -55,6 +55,7 @@ add_ace group.admin easyadmin allow
 | easyadmin.server.cleanup.cars | Allows to cleanup all Vehicles on the Server, except ones currently occupied by players |
 | easyadmin.server.cleanup.props | Allows to cleanup all Props on the Server, including ones spawned by resources or hacks, does not include maps |
 | easyadmin.server.cleanup.peds | Allows to cleanup all Peds on the Server |
+| easyadmin.server.announce | Allows to send an announcement to all players |
 | easyadmin.server.convars | Allows to edit Server Convars, this is a dangerous permission, only assign to people you trust! |
 | easyadmin.server.resources.start | Allows to start Resources on the Server |
 | easyadmin.server.resources.stop | Allows to stop Resources on the Server |
