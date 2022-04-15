@@ -26,6 +26,8 @@ To create a bot user, we will head over to [Discord Developer Apps](https://disc
 
 ![](assets/discordappcreation.gif)
 
+> The Bot **requires** all Privileged Gateway Intents to be enabled, having these disabled will cause the bot to fail to start and trigger a `Privileged intent provided is not enabled or whitelisted` error.
+
 ## Inviting the bot
 
 > If you are getting 401 errors, kick the Bot and invite it again using this link.
