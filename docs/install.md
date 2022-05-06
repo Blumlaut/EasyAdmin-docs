@@ -8,7 +8,45 @@ EasyAdmin **requires** an up-to-date `yarn` resource from [cfx-server-data](http
 
 ## Installation
 
-Simply Drag&Drop your `EasyAdmin` folder into the `resources` folder of your Server.
+=== "Manually (FTP)"
+
+	Simply download the latest source code from https://github.com/Blumlaut/EasyAdmin/releases/latest
+
+	Extract the EasyAdmin-*version* folder onto your workspace, rename the folder to `EasyAdmin` and upload it to your FiveM Server's `resources` folder using FTP, then follow the rest of the Guide.
+
+=== "Manually on Linux (CLI)"
+
+	First, we install the required packages using our preferred package manager, you will need the following packages:
+	`tar jq curl wget`
+
+	Once these packages are installed, cd into your server's resources folder and can run the following bash script:
+
+	```bash
+	dl=$(curl -sSL https://api.github.com/repos/Blumlaut/EasyAdmin/releases/latest | jq -r .tarball_url )
+	mkdir EasyAdmin
+	wget $dl -O easyadmin.tar.gz
+	tar xf easyadmin.tar.gz && rm easyadmin.tar.gz
+	cp -Rfv *Blumlaut-EasyAdmin*/* ./EasyAdmin
+	rm -rf *Blumlaut-EasyAdmin*
+	```
+
+	This script can also be used to update EasyAdmin, however, reading changelogs is always recommended.
+
+
+=== "Manually on Windows (GUI)"
+
+	Simply download the latest source code from https://github.com/Blumlaut/EasyAdmin/releases/latest
+
+	Extract the EasyAdmin-*version* folder into your resources, then rename the folder to `EasyAdmin`.
+
+
+
+=== "ZAP-Hosting Webinterface"
+	
+	> If you are using txAdmin, then please follow the "Manually (FTP)" or "Manually on Linux (CLI)" Guides.
+
+	Open the "Resources" tab in your ZAP-Hosting Dashboard, search for EasyAdmin and click the install button.
+
 
 
 ## Getting Started
