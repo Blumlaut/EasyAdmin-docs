@@ -10,7 +10,7 @@ EasyAdmin **requires** an up-to-date `yarn` resource from [cfx-server-data](http
 
 === "Manually (FTP)"
 
-	Simply download the latest source code from https://github.com/Blumlaut/EasyAdmin/releases/latest
+	Simply download the latest source code from [here](https://github.com/Blumlaut/EasyAdmin/releases/latest)
 
 	Extract the EasyAdmin-*version* folder onto your workspace, rename the folder to `EasyAdmin` and upload it to your FiveM Server's `resources` folder using FTP, then follow the rest of the Guide.
 
@@ -35,7 +35,7 @@ EasyAdmin **requires** an up-to-date `yarn` resource from [cfx-server-data](http
 
 === "Manually on Windows (GUI)"
 
-	Simply download the latest source code from https://github.com/Blumlaut/EasyAdmin/releases/latest
+	Simply download the latest source code from [here](https://github.com/Blumlaut/EasyAdmin/releases/latest)
 
 	Extract the EasyAdmin-*version* folder into your resources, then rename the folder to `EasyAdmin`.
 
