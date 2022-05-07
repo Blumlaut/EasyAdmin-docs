@@ -178,6 +178,8 @@ To make the bot send specific messages into other channels, you can use the `con
 
 ![](assets/configurecommand.gif)
 
+Individual logs can also be disabled by using `ea_excludeWebhookFeature`, see [Configuring](config.md).
+
 
 ### Live server status
 
