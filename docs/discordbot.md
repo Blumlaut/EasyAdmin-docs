@@ -77,7 +77,7 @@ To test if the bot is working properly, you can run `/playerlist`, the output sh
 
 ## Configuring permissions
 
-Unlike the EasyAdmin gui, the bot permissions are all contained within the `easyadmin.bot` category, this allows restricting groups to have to do actions on the server, instead of using discord, where exact actions may not be reproducable due to changing usernames.
+Unlike the EasyAdmin GUI, the bot permissions are all contained within the `easyadmin.bot` category, this allows restricting groups to have to do actions on the server, instead of using discord, where exact actions may not be reproducable due to changing usernames.
 
 A list of current permissions is:
 
