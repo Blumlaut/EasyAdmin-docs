@@ -56,7 +56,6 @@ To get started with EasyAdmin, simply copypaste this template into your `server.
 ```
 ensure EasyAdmin
 
-
 add_ace group.admin easyadmin allow
 ```
 
