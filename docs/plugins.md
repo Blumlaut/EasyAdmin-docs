@@ -14,16 +14,20 @@ Menu Items are generated when the Button for it is pressed, do note that the men
 
 Here is a Boilerplate Script that can help you get started with EasyAdmin Plugins:
 
-```lua
+```Lua
 local somevalue = false
 
 AddEventHandler("EasyAdmin:BuildPlayerOptions", function(playerId) -- BuildPlayerOptions is triggered after building options like kick, ban.. Passes a Player ServerId
-	
+	-- Menu you can create items under is called thisPlayer
+
 	local thisItem = NativeUI.CreateItem("Example Item","Player ID is "..playerId) -- create our new item
 	thisPlayer:AddItem(thisItem) -- thisPlayer is global.
 	thisItem.Activated = function(ParentMenu,SelectedItem)
 		-- enter your clientside code here, this will be run once the button has been activated.
 		somevalue = true -- set some value we want to undo once the menu closes.
+		if somevalue == true then 
+			ShowNotification("toggled something in Player ID "..playerId)
+		end
 	end
 
 	if permissions["kick"] then -- you can also check if a user has a specific Permission.
@@ -37,20 +41,24 @@ end)
 
 
 AddEventHandler("EasyAdmin:BuildCachedOptions", function(playerId) -- Options for Cached Players, do note that these do not not support Player natives! They're cached BY EASYADMIN
--- uses thisPlayer as menu
+-- uses thisPlayer
 end)
 
 AddEventHandler("EasyAdmin:BuildServerManagementOptions", function() -- Options for the Server Management Submenu, passes nothing.
--- uses servermanagement as menu
+-- uses servermanagement 
 end)
 
 AddEventHandler("EasyAdmin:BuildSettingsOptions", function() -- Options for the Settings Page, once again, passes nothing
--- uses settingsMenu as menu
+-- uses settingsMenu
 end)
+
+AddEventHandler("EasyAdmin:BuildMainMenuOptions", function() -- Options for the Main Menu
+-- uses mainMenu
+end)
+
 
 AddEventHandler("EasyAdmin:MenuRemoved", function() -- this triggers if a player closes the menu or the menupool gets removed, this CAN trigger multiple times in a row.
 	somevalue = false -- reset our value :)
-
 end)
 ```
 
