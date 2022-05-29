@@ -10,7 +10,7 @@ EasyAdmin **requires** an up-to-date `yarn` resource from [cfx-server-data](http
 
 === "Manually (FTP)"
 
-	Simply download the latest source code from [here](https://github.com/Blumlaut/EasyAdmin/releases/latest)
+	Download the latest source code from [here](https://github.com/Blumlaut/EasyAdmin/releases/latest)
 
 	Extract the EasyAdmin-*version* folder onto your workspace, rename the folder to `EasyAdmin` and upload it to your FiveM Server's `resources` folder using FTP, then follow the rest of the Guide.
 
@@ -35,7 +35,7 @@ EasyAdmin **requires** an up-to-date `yarn` resource from [cfx-server-data](http
 
 === "Manually on Windows (GUI)"
 
-	Simply download the latest source code from [here](https://github.com/Blumlaut/EasyAdmin/releases/latest)
+	Download the latest source code from [here](https://github.com/Blumlaut/EasyAdmin/releases/latest)
 
 	Extract the EasyAdmin-*version* folder into your resources, then rename the folder to `EasyAdmin`.
 
@@ -51,7 +51,7 @@ EasyAdmin **requires** an up-to-date `yarn` resource from [cfx-server-data](http
 
 ## Getting Started
 
-To get started with EasyAdmin, simply copypaste this template into your `server.cfg` file.
+To get started with EasyAdmin, copypaste this template into your `server.cfg` file.
 
 ```
 ensure EasyAdmin
@@ -84,7 +84,7 @@ More Configuration options can be found [here](config.md).
 	After installing EasyAdmin, start EasyAdmin and join your Server, once you are connected enter `ea_printIdentifiers 1` in your Server Console, 1 represents your ingame ID, so make sure you use the correct id, EasyAdmin will then print a list of your identifiers:
 	![grafik](https://user-images.githubusercontent.com/13604413/139588546-a64da751-7f1c-41ae-8abd-f6c7e7b0735e.png)
 
-	we can now simply fill out the value described above, it will look like this:
+	we can now fill out the value described above, it will look like this:
 
 	```
 	add_principal identifier.steam:1100001018c7433 group.admin
