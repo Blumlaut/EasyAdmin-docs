@@ -59,7 +59,7 @@ ensure EasyAdmin
 add_ace group.admin easyadmin allow
 ```
 
-The Menu key is no longer defined using a convar, see [Keybind](keybind.md).
+To configure a key to open EasyAdmin with, see [Keybind](keybind.md).
 
 More Configuration options can be found [here](config.md).
 
