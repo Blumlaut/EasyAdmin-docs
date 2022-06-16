@@ -94,7 +94,7 @@ easyadmin.bot.mute
 easyadmin.bot.playerinfo
 easyadmin.bot.playerlist
 easyadmin.bot.slap
-easaydmin.bot.unban
+easyadmin.bot.unban
 easyadmin.bot.unfreeze
 easyadmin.bot.unmute
 ```
