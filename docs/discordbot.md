@@ -126,7 +126,6 @@ EasyAdmin's Discord bot seamlessly integrates Discord roles into FiveM's ACE sys
 add_ace role:604749064436711444 easyadmin allow
 
 add_ace role:604752112227844129 easyadmin.player allow
-
 ```
 
 You can also let roles inherit from existing groups as described here:
