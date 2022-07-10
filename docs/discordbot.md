@@ -180,6 +180,25 @@ To make the bot send specific messages into other channels, you can use the `con
 
 Individual logs can also be disabled by using `ea_excludeWebhookFeature`, see [Configuring](config.md).
 
+Available log types are:
+```
+kick 
+ban 
+slap 
+warn 
+teleport 
+freeze 
+spectate 
+settings 
+calladmin 
+report 
+reports 
+screenshot 
+permissions 
+joinleave
+```
+
+
 
 ### Live server status
 
