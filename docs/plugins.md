@@ -126,6 +126,7 @@ the "name" property would be the name of your plugin, this can be any arbitrary 
 
 For example, if your playerMenu function is called `generatePlayerMenu`, then your should reflect that as `playerMenu = generatePlayerMenu,` in the functions table.
 
+Legacy Plugins are expected to stop working around Q1 2023.
 
 ## Replacing Notifications
 
