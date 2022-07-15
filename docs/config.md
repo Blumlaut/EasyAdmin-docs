@@ -29,7 +29,7 @@ Note that "setr" and "set" are **not** identical, make sure not to use them inte
 | ea_screenshotfield | Convar | `setr ea_screenshotfield "files[]"` | Defines the name for the form field to add the file to. See [screenshot-basic](https://github.com/citizenfx/screenshot-basic/blob/master/README.md) for further information. |
 | ea_screenshotOptions | Convar | `setr ea_screenshotOptions "{}"` | Defines any arguments that should be passed through to screenshot-basic as a JSON String. See [screenshot-basic](https://github.com/citizenfx/screenshot-basic/blob/master/README.md) for further information. |
 | ea_enableReportScreenshots | Convar | `set ea_enableReportScreenshots "true"` | When a player is Reported, this Convar will cause a screenshot to be taken of the reported player's game, if screenshot-basic is set up							 |
-| ea_logIdentifier | Convar | `set ea_logIdentifier "steam"` | Shows the specified identifier in Webhook Messages next to the player name
+| ea_logIdentifier | Convar | `set ea_logIdentifier "discord,steam,license"` | Will attempt to log the player's identifier in webhook messages, preference in descending order.
 
 ## Command Configuration
 

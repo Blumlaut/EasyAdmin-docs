@@ -17,49 +17,59 @@ Here is a Boilerplate Script that can help you get started with EasyAdmin Plugin
 ```Lua
 local somevalue = false
 
-AddEventHandler("EasyAdmin:BuildPlayerOptions", function(playerId) -- BuildPlayerOptions is triggered after building options like kick, ban.. Passes a Player ServerId
-	-- Menu you can create items under is called thisPlayer
+-- functions MUST be prefixed with local!
 
+local function playerOption(playerId)
 	local thisItem = NativeUI.CreateItem("Example Item","Player ID is "..playerId) -- create our new item
 	thisPlayer:AddItem(thisItem) -- thisPlayer is global.
 	thisItem.Activated = function(ParentMenu,SelectedItem)
 		-- enter your clientside code here, this will be run once the button has been activated.
 		somevalue = true -- set some value we want to undo once the menu closes.
-		if somevalue == true then 
-			ShowNotification("toggled something in Player ID "..playerId)
-		end
+
 	end
 
-	if permissions["kick"] then -- you can also check if a user has a specific Permission.
+	if DoesPlayerHavePermission(-1, "player.kick") then -- you can also check if a user has a specific Permission.
 		local thisExampleMenu = _menuPool:AddSubMenu(thisPlayer,"Example Submenu","",true) -- Submenus work, too!
 		thisExampleMenu:SetMenuWidthOffset(menuWidth)
 
 		local thisItem = NativeUI.CreateItem("Example Submenu Item","")
 		thisExampleMenu:AddItem(thisItem) -- Items dont require a trigger.
+
 	end
-end)
+end
 
+local function mainMenu()
+	error("help me i have become self aware") -- you can also cast arbitrary errors, this will be visible in the console, with a proper stack trace, and easyadmin will not fail due to it.
+end
 
-AddEventHandler("EasyAdmin:BuildCachedOptions", function(playerId) -- Options for Cached Players, do note that these do not not support Player natives! They're cached BY EASYADMIN
--- uses thisPlayer
-end)
+local function cachedMenu()
+end
 
-AddEventHandler("EasyAdmin:BuildServerManagementOptions", function() -- Options for the Server Management Submenu, passes nothing.
--- uses servermanagement 
-end)
+local function serverMenu()
+end
 
-AddEventHandler("EasyAdmin:BuildSettingsOptions", function() -- Options for the Settings Page, once again, passes nothing
--- uses settingsMenu
-end)
+local function settingsMenu()
+end
 
-AddEventHandler("EasyAdmin:BuildMainMenuOptions", function() -- Options for the Main Menu
--- uses mainMenu
-end)
-
-
-AddEventHandler("EasyAdmin:MenuRemoved", function() -- this triggers if a player closes the menu or the menupool gets removed, this CAN trigger multiple times in a row.
+local function menuRemoved()
 	somevalue = false -- reset our value :)
-end)
+end
+
+
+local pluginData = { -- enter your plugin infos, and any optional data, here.
+	name = "Demo", -- your plugin name
+	functions = { -- functions which dont exist dont need to be added here.
+		mainMenu = mainMenu,
+		playerMenu = playerOption,
+		cachedMenu = cachedMenu,
+		serverMenu = serverMenu,
+		settingsMenu = settingsMenu,
+		menuRemoved = menuRemoved,
+	}
+}
+
+
+addPlugin(pluginData) -- this function will add the plugin to EasyAdmin
 ```
 
 ### Adding new Permissions
@@ -77,6 +87,44 @@ end)
 Of note is that all permissions are prefixed with `easyadmin` automatically, so `your.custom.permission` becomes `easyadmin.your.custom.permission`
 
 You can then use the permission you added by simply checking it server-side using `DoesPlayerHavePermission(source, "your.custom.permission")` or clientside using `permissions["your.custom.permission"]`, these will return a true/false boolean.
+
+
+## Porting Plugins to 6.8
+
+Porting your Plugin to 6.8 is fairly trivial, the menu generation event handlers have been replaced with functions:
+
+```diff
+- AddEventHandler("EasyAdmin:BuildPlayerOptions", function(playerId)
++ local function playerOption(playerId)
+
+- AddEventHandler("EasyAdmin:MenuRemoved", function() 
++ local function menuRemoved()
+```
+
+Actual menu syntax has not changed, so no code changes in the UI generation are required.
+
+After you have changed all your EasyAdmin-related event handlers to local functions, add the following to the bottom of the script:
+
+```Lua
+local pluginData = {
+	name = "Demo",
+	functions = {
+		mainMenu = mainMenu,
+		playerMenu = playerOption,
+		cachedMenu = cachedMenu,
+		serverMenu = serverMenu,
+		settingsMenu = settingsMenu,
+		menuRemoved = menuRemoved,
+	}
+}
+
+
+addPlugin(pluginData)
+```
+
+the "name" property would be the name of your plugin, this can be any arbitrary string, your function names must also match the ones defined in the functions table.
+
+For example, if your playerMenu function is called `generatePlayerMenu`, then your should reflect that as `playerMenu = generatePlayerMenu,` in the functions table.
 
 
 ## Replacing Notifications
