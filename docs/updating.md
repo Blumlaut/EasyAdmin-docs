@@ -11,7 +11,7 @@ This page outlines instructions on how to update EasyAdmin between versions.
 + setr ea_logIdentifier "discord,steam,license"
 ```
 
-EasyAdmin Plugins have been changed significantly and should be updated to the new Plugin System, check the [Porting Docs](plugins.md) if you are a Developer.
+EasyAdmin Plugins have been changed significantly and should be updated to the new Plugin System, check the [Porting Docs](plugins.md#porting-plugins-to-68) if you are a Developer.
 
 ## To 6.6
 
