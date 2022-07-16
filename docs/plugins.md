@@ -19,7 +19,7 @@ local somevalue = false
 
 -- functions MUST be prefixed with local!
 
-local function playerOption(playerId)
+local function playerOptions(playerId)
 	local thisItem = NativeUI.CreateItem("Example Item","Player ID is "..playerId) -- create our new item
 	thisPlayer:AddItem(thisItem) -- thisPlayer is global.
 	thisItem.Activated = function(ParentMenu,SelectedItem)
@@ -38,17 +38,17 @@ local function playerOption(playerId)
 	end
 end
 
-local function mainMenu()
+local function mainMenuOptions()
 	error("help me i have become self aware") -- you can also cast arbitrary errors, this will be visible in the console, with a proper stack trace, and easyadmin will not fail due to it.
 end
 
-local function cachedMenu()
+local function cachedMenuOptions()
 end
 
-local function serverMenu()
+local function serverMenuOptions()
 end
 
-local function settingsMenu()
+local function settingsMenuOptions()
 end
 
 local function menuRemoved()
@@ -59,11 +59,11 @@ end
 local pluginData = { -- enter your plugin infos, and any optional data, here.
 	name = "Demo", -- your plugin name
 	functions = { -- functions which dont exist dont need to be added here.
-		mainMenu = mainMenu,
-		playerMenu = playerOption,
-		cachedMenu = cachedMenu,
-		serverMenu = serverMenu,
-		settingsMenu = settingsMenu,
+		mainMenu = mainMenuOptions,
+		playerMenu = playerOptions,
+		cachedMenu = cachedMenuOptions,
+		serverMenu = serverMenuOptions,
+		settingsMenu = settingsMenuOptions,
 		menuRemoved = menuRemoved,
 	}
 }
@@ -95,7 +95,7 @@ Porting your Plugin to 6.8 is fairly trivial, the menu generation event handlers
 
 ```diff
 - AddEventHandler("EasyAdmin:BuildPlayerOptions", function(playerId)
-+ local function playerOption(playerId)
++ local function playerOptions(playerId)
 
 - AddEventHandler("EasyAdmin:MenuRemoved", function() 
 + local function menuRemoved()
@@ -109,11 +109,11 @@ After you have changed all your EasyAdmin-related event handlers to local functi
 local pluginData = {
 	name = "Demo",
 	functions = {
-		mainMenu = mainMenu,
-		playerMenu = playerOption,
-		cachedMenu = cachedMenu,
-		serverMenu = serverMenu,
-		settingsMenu = settingsMenu,
+		mainMenu = mainMenuOptions,
+		playerMenu = playerOptions,
+		cachedMenu = cachedMenuOptions,
+		serverMenu = serverMenuOptions,
+		settingsMenu = settingsMenuOptions,
 		menuRemoved = menuRemoved,
 	}
 }
