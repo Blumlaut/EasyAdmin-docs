@@ -2,7 +2,7 @@
 
 This page outlines instructions on how to update EasyAdmin between versions.
 
-## To 6.8
+## To 6.8 & 6.81
 
 `ea_logIdentifier` has been changed to accept a list of identifiers, comma seperated
 
