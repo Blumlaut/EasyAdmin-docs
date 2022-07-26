@@ -48,6 +48,7 @@ add_ace group.admin easyadmin allow
 | easyadmin.player.reports.view | Allows Admins to View Reports made by Users |
 | easyadmin.player.reports.claim | Allows Admins to Claim Reports made by Users |
 | easyadmin.player.reports.process | Allows to Delete Reports made by Users |
+| easyadmin.player.allowlist | Allows to join server while Allowlist is enabled |
 | easyadmin.server.shortcut.add | Allows to use the ea_addShortcut command, however, these are not persistant |
 | easyadmin.server.reminder.add | Allows to use the ea_addReminder command, these are also not persistan |
 | easyadmin.server.permissions.read | Allows to view all (add_ace & add_principal) Permissions the server has configured |
