@@ -22,7 +22,7 @@ EasyAdmin has an ever-increasing amount of Features, here is a list of some of t
 - A Permission Editor allowing for realtime modification of Server Permissions, saves to a config!
 - Various Server Admin Tools such as Cleaning up spawned Cars/Peds/Props
 - API to allow Developers to Communicate with EasyAdmin
-- Translation in 10 Languages (Community Driven)
+- Translation in 7 Languages (Community Driven)
 - Actively Supported & Updated since 2017
 - Plugin Support 
 - Fully integrated Discord Bot, including Discord ACE Permissions, Chat Bridge, Commands and Logs
