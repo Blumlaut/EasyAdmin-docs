@@ -69,7 +69,6 @@ nav:
         - 'updating.md'
     - 'Troubleshooting':
       - 'troubleshooting.md'
-      - 'supportfile.md'
     - 'Developer Reference':
         - 'plugins.md'
         - 'translating.md'

@@ -25,4 +25,3 @@ Here is a list of commands currently implemented in EasyAdmin, including their S
 | ea_testWebhook                 | EasyAdmin will print test messages in the Webhooks to verify if they work |
 | ea_createBackup                | Creates a Banlist backup |
 | ea_loadBackup [backupname]     | Loads a Banlist backup   |
-| ea_generateSupportFile         | Generates a Debug Supportfile for Discord support |

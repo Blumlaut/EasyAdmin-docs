@@ -32,10 +32,7 @@ https://github.com/Blumlaut/EasyAdmin/issues
 
 ### I gave myself Admin Permissions, but i cant open the menu
 
-Add `setr ea_logLevel 3` to your server config and restart the Server, then try connecting, EasyAdmin will show which permissions it's aware of, if your permissions all return `false` then you did something wrong.
-
-
-Join the Support Discord and follow [This Guide](https://easyadmin.readthedocs.io/en/latest/supportfile/).
+Add `setr ea_logLevel 3` to your server config and restart the Server, then try connecting, EasyAdmin will show which permissions it's aware of, if your permissions all return `false` then you did something wrong, double check your configured permissions.
 
 
 ## Getting a different problem? Join the [Support Discord](https://discord.gg/GugyRU8)! 
