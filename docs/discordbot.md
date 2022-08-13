@@ -87,30 +87,36 @@ easyadmin.bot.add_group
 easyadmin.bot.remove_ace
 easyadmin.bot.remove_group
 easyadmin.bot.ban
-easyadmin.bot.cleanup
-easyadmin.bot.freeze
+easyadmin.bot.unban
+easyadmin.bot.baninfo
+easyadmin.bot.warn
 easyadmin.bot.kick
 easyadmin.bot.mute
+easyadmin.bot.unmute
+easyadmin.bot.freeze
+easyadmin.bot.unfreeze
+easyadmin.bot.slap
+easyadmin.bot.cleanup
 easyadmin.bot.playerinfo
 easyadmin.bot.playerlist
-easyadmin.bot.slap
-easyadmin.bot.unban
-easyadmin.bot.unfreeze
-easyadmin.bot.unmute
+easyadmin.bot.announce
+easyadmin.bot.configure
+easyadmin.bot.refreshperms
+easyadmin.bot.screenshot
 ```
 
 For default permissions for normal admins, which are not meant to change permissions, we recommend the following preset:
 
 
 ```
-add_ace group.admin easyadmin.bot.freeze allow
 add_ace group.admin easyadmin.bot.kick allow
 add_ace group.admin easyadmin.bot.mute allow
+add_ace group.admin easyadmin.bot.unmute allow
+add_ace group.admin easyadmin.bot.freeze allow
+add_ace group.admin easyadmin.bot.unfreeze allow
+add_ace group.admin easyadmin.bot.slap allow
 add_ace group.admin easyadmin.bot.playerinfo allow
 add_ace group.admin easyadmin.bot.playerlist allow
-add_ace group.admin easyadmin.bot.slap allow
-add_ace group.admin easyadmin.bot.unfreeze allow
-add_ace group.admin easyadmin.bot.unmute allow
 ```
 
 
