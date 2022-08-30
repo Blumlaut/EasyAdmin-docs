@@ -84,6 +84,7 @@ Note that "setr" and "set" are **not** identical, make sure not to use them inte
 | ea_playerCacheExpiryTime | Convar | `set ea_playerCacheExpiryTime 900` | Defines, in seconds, how long it takes for a Cached Player to get removed from Cache, 30 Minutes by Default, however, higher Values are recommended for sparsely Moderated Servers, should not exceed a few hours for performance reasons. |
 | ea_addShortcut | Command | `ea_addShortcut rdm RDMing is not allowed, please read our Rules! (/rules)`| Creates a shortcut for a reason. [More detailed informations](shortcuts.md) |
 | ea_enableChat | Command | `set ea_enableChat "false"` | Toggles EasyAdmin's own Admin Chat on/off |
+| ea_enableAllowlist | Convar | `set ea_enableAllowlist "true"` | Enable or Disable Allowlist System |
 
 
 ## Advanced Configuration
