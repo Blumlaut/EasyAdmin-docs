@@ -45,3 +45,8 @@ We mainly provide support through our [Support Discord](https://discord.gg/GugyR
 Both [EasyAdmin](https://github.com/Blumlaut/EasyAdmin) and the [docs](https://github.com/Blumlaut/EasyAdmin-docs) are open source and can be contributed to.
 
 Spotted a mitsake[sic] or want to expand a page with more infos? Click the "Edit" button at the top right and create a Pull Request! Any contributions are always welcome! ![](https://cdn.discordapp.com/emojis/652536385500086284.png?size=20)
+
+
+Rent your own FiveM Server with EasyAdmin at ZAP-Hosting.com:
+<a href='https://zap-hosting.com/easyadmin'><img src="https://zap-cdn.com/interface/_images/banner/gameserver/fivem-affiliate-banner-1006x180.png" alt="ZAP-Hosting Gameserver and Webhosting"></a>
+<center>Use the Discount code **blumlaut-a-1757** to get **10%** of your next order!</center>
