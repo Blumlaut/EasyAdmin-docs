@@ -52,7 +52,6 @@ To actually have EasyAdmin log into the bot, we need to configure the following 
 
 ```
 set ea_botToken "botToken"
-set ea_botGuild "guildId"
 ```
 
 Fill out your bot token you got from the discord developer page, to get your guild id, see here:
