@@ -59,7 +59,6 @@ Note that "setr" and "set" are **not** identical, make sure not to use them inte
 | Command/Convar | Type | Usage | Description |
 |--|--|--|--|
 | ea_botToken | Convar | `set ea_botToken "aaaabbbbb.cccceeeee"` | The Discord token used for the bot |
-| ea_botGuild | Convar | `set ea_botGuild "604745909368127548"` | The Discord Guild the bot will run in. |
 | ea_botLogChannel | Convar | `set ea_botLogChannel "838749101079658526"` | The Discord Channel the bot will log messages in. |
 | ea_botStatusChannel | Convar | `set ea_botStatusChannel "838749101079658526"` | The Discord Channel will post live server status messages in. |
 | ea_botChatBridge | Convar | `set ea_botChatBridge "838749101079658526"` | The Discord where Ingame and Discord chat will be bridged. |
