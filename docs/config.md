@@ -53,7 +53,8 @@ Note that "setr" and "set" are **not** identical, make sure not to use them inte
 | ea_maxWarnings | Convar | `set ea_maxWarnings 3` | Defines how many times a player can get warned before actions are taken Automatically. |
 | ea_warnAction | Convar | `set ea_warnAction "kick"` | Defines how the player will get acted upon, if maximum warnings are reached, can be `none`, `kick` or `ban` |
 | ea_warningBanTime | Convar | `set ea_warningBanTime 604800` | How long a player will stay banned after being warned and banned, accepts a unix time string. |
-| ea_IpPrivacy | Convar	| `setr ea_IpPrivacy "true"` | Weither or not to Hide IP Identifiers in the GUI, won't prevent them being used for Bans.
+| ea_IpPrivacy | Convar	| `setr ea_IpPrivacy "true"` | Weither or not to Hide IP Identifiers in the GUI, won't prevent them being used for Bans. |
+| ea_adminCooldown:`<ACTION>` | Convar |  `set ea_adminCooldown:ban 60` | If set to an integer other than 0, they will restrict an Admin from repeating that action for the number of seconds provided in the integer. |
 
 ## Bot Configuration
 | Command/Convar | Type | Usage | Description |
@@ -84,6 +85,7 @@ Note that "setr" and "set" are **not** identical, make sure not to use them inte
 | ea_addShortcut | Command | `ea_addShortcut rdm RDMing is not allowed, please read our Rules! (/rules)`| Creates a shortcut for a reason. [More detailed informations](shortcuts.md) |
 | ea_enableChat | Command | `set ea_enableChat "false"` | Toggles EasyAdmin's own Admin Chat on/off |
 | ea_enableAllowlist | Convar | `set ea_enableAllowlist "true"` | Enable or Disable Allowlist System |
+| ea_disableShootingWhileFrozen | Convar | `set ea_disableShootingWhileFrozen "true"` | This will make it so that a player frozen by an admin will not be able to shoot their weapon. |
 
 
 ## Advanced Configuration
