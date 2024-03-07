@@ -37,7 +37,7 @@ Take a look at our Install Guide [here](install.md).
 
 ## Support
 
-We mainly provide support through our [Support Discord](https://discord.gg/GugyRU8), however, you can also create an [Issue](https://github.com/Blumlaut/EasyAdmin/issues/new) if you experience any Issues.
+We mainly provide support through our [Support Discord](https://discord.gg/qq82ZU36XZ), however, you can also create an [Issue](https://github.com/Blumlaut/EasyAdmin/issues/new) if you experience any Issues.
 
 
 ## Contributing

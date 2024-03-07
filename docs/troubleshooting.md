@@ -35,4 +35,4 @@ https://github.com/Blumlaut/EasyAdmin/issues
 Add `setr ea_logLevel 3` to your server config and restart the Server, then try connecting, EasyAdmin will show which permissions it's aware of, if your permissions all return `false` then you did something wrong, double check your configured permissions.
 
 
-## Getting a different problem? Join the [Support Discord](https://discord.gg/GugyRU8)! 
+## Getting a different problem? Join the [Support Discord](https://discord.gg/qq82ZU36XZ)! 
