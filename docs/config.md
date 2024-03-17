@@ -14,7 +14,18 @@ Note that "setr" and "set" are **not** identical, make sure not to use them inte
 | ea_LanguageName | Convar | `setr ea_LanguageName "en"` | This Convars dictates in which language EasyAdmin is displayed ( this includes but is not limited to GUI, Kick Messages, Reasons, Hud Elements.. ) Available options: de, en, es, fr, it, nl, pl |
 | ea_defaultKey (RedM Only!) | Convar | `setr ea_defaultKey "PhotoModePc"` | [Guide for FiveM here.](keybind.md) Key which is used to open the Menu [RedM Keys](https://github.com/Blumlaut/EasyAdmin/blob/master/dependencies/Controls.lua#L3) |
 | ea_minIdentifierMatches | Convar | `set ea_minIdentifierMatches 2` | The Minimum Amount of Identifiers that have to match before a Player gets "Declined" for being banned. Never put this below 1. If some form of Proxy is used on the server, you should add 1 to this number for every Proxy IP |
-| ea_presentDeferral | Convar | `set ea_presentDeferral "true"` | Weither or not EasyAdmin will display a progress (in %) of it checking the banlist when connecting, disable when using Adaptive Cards. |
+| ea_presentDeferral | Convar | `set ea_presentDeferral "true"` | Whether or not EasyAdmin will display a progress (in %) of it checking the banlist when connecting, disable when using Adaptive Cards. |
+
+## Ban Screen Configuration
+
+| Command/Convar | Type | Usage | Description |
+|--|--|--|--|
+| ea_banMessageTitleColour | Convar | `set ea_banMessageTitleColour "#354557"` | The hex color for the title of the ban screen. |
+| ea_banMessageServerName | Convar | `set ea_banMessageServerName "EasyAdmin RP"` | Your server's name to show on the title of the ban screen. |
+| ea_banMessageShowStaff | Convar | `set ea_banMessageShowStaff "true"` | Whether or not to display the staff member that banned the user. Set to `"false"` to hide the staff member's name. |
+| ea_banMessageFooter | Convar | `set ea_banMessageFooter "You can appeal this by ban by visiting our discord."` | The footer message typically showing an appeal link. |
+| ea_banMessageSubHeader | Convar | `set ea_banMessageSubHeader "You have been banned from this server."` | Sub header for the ban screen. |
+| ea_banMessageWatermark | Convar | `set ea_banMessageWatermark "https://example.com/logo.png"` | Your server logo or banner - used as a watermark. (ideally transparent/no background) |
 
 ## Webhook & Screenshot Configuration
 
