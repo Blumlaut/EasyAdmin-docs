@@ -51,4 +51,4 @@ Rent your own FiveM Server with EasyAdmin at ZAP-Hosting.com:
 <br>
 <a href='https://zap-hosting.com/easyadmin'><img src="https://zap-cdn.com/interface/_images/banner/gameserver/fivem-affiliate-banner-1006x180.png" alt="ZAP-Hosting Gameserver and Webhosting"></a>
 <br>
-Use the Discount code **blumlaut-a-1757** to get **10%** of your next order!
+Use the Discount code **EasyAdmin** to get **20%** of your next order!
