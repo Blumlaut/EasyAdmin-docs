@@ -96,8 +96,6 @@ Note that "setr" and "set" are **not** identical, make sure not to use them inte
 | ea_addShortcut | Command | `ea_addShortcut rdm RDMing is not allowed, please read our Rules! (/rules)`| Creates a shortcut for a reason. [More detailed informations](shortcuts.md) |
 | ea_enableChat | Command | `set ea_enableChat "false"` | Toggles EasyAdmin's own Admin Chat on/off |
 | ea_enableAllowlist | Convar | `set ea_enableAllowlist "true"` | Enable or Disable Allowlist System |
-| ea_disableShootingWhileFrozen | Convar | `set ea_disableShootingWhileFrozen "true"` | This will make it so that a player frozen by an admin will not be able to shoot their weapon. |
-
 
 ## Advanced Configuration
 
