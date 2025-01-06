@@ -17,9 +17,11 @@ EasyAdmin **requires** an up-to-date `yarn` resource from [cfx-server-data](http
 === "Manually on Linux (CLI)"
 
 	First, we install the required packages using our preferred package manager, you will need the following packages:
-	`tar jq curl wget`
+	```
+	tar jq curl wget
+	```
 
-	Once these packages are installed, cd into your server's resources folder and run the following bash script:
+	Once these packages are installed, `cd` into your server's `resources` folder and run the following bash script:
 
 	```bash
 	dl=$(curl -sSL https://api.github.com/repos/Blumlaut/EasyAdmin/releases/latest | jq -r .tarball_url )
@@ -51,7 +53,7 @@ EasyAdmin **requires** an up-to-date `yarn` resource from [cfx-server-data](http
 
 ## Getting Started
 
-To get started with EasyAdmin, copypaste this template into your `server.cfg` file.
+To get started with EasyAdmin, copypaste this template into your `server.cfg` file and restart your server.
 
 ```
 ensure EasyAdmin
