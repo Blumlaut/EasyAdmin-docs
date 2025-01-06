@@ -61,10 +61,9 @@ ensure EasyAdmin
 add_ace group.admin easyadmin allow
 ```
 
+All available configuration options can be found [here](config.md).
+
 To configure a key to open EasyAdmin with, see [Keybind](keybind.md).
-
-More Configuration options can be found [here](config.md).
-
 
 ## Adding an Admin
 
