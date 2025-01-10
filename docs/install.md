@@ -59,6 +59,7 @@ To get started with EasyAdmin, copypaste this template into your `server.cfg` fi
 ensure EasyAdmin
 
 add_ace group.admin easyadmin allow
+add_ace resource.EasyAdmin command allow
 ```
 
 All available configuration options can be found [here](config.md).
