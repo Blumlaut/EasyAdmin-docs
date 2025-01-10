@@ -2,6 +2,17 @@
 
 This page outlines instructions on how to update EasyAdmin between versions.
 
+## To 7.3
+
+The v1 Plugin API has been removed entirely, if plugins were still using the v1 API, refer to the [Porting Docs](plugins.md#porting-plugins-to-68).
+
+EasyAdmin will no longer attempt to give itself permissions using the server.cfg file, this must now be done manually by adding the following line to the server.cfg:
+
+```
+add_ace resource.EasyAdmin command allow
+```
+
+
 ## To 6.8 & 6.81
 
 `ea_logIdentifier` has been changed to accept a list of identifiers, comma seperated
