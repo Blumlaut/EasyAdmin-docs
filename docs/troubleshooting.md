@@ -2,8 +2,7 @@
 
 ### I'm getting yarn build errors!
 
-If you are getting "Building resource EasyAdmin failed", update your yarn resource with the latest version from [cfx-server-data](https://github.com/citizenfx/cfx-server-data), then delete your server cache and try again.
-
+Update to EasyAdmin 7.4 or higher.
 
 ### How can i change the menu key?
 
