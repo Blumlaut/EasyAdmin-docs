@@ -96,6 +96,7 @@ Note that "setr" and "set" are **not** identical, make sure not to use them inte
 | ea_addShortcut | Command | `ea_addShortcut rdm RDMing is not allowed, please read our Rules! (/rules)`| Creates a shortcut for a reason. [More detailed informations](shortcuts.md) |
 | ea_enableChat | Command | `set ea_enableChat "false"` | Toggles EasyAdmin's own Admin Chat on/off |
 | ea_enableAllowlist | Convar | `set ea_enableAllowlist "true"` | Enable or Disable Allowlist System |
+| ea_routingBucketOptions | Convar | `set ea_routingBucketOptions "true"` | Enable or Disable the Routing Bucket Manipulation Options |
 
 ## Advanced Configuration
 

@@ -64,4 +64,5 @@ add_ace group.admin easyadmin allow
 | easyadmin.immune | Prevents from being kicked/banned by other admins. |
 | easyadmin.anon | Allows the "Anonymous Admin" Feature, will hide Username in Kicks/Bans/Admin Logs |
 | easyadmin.bot.(command name) | Allows Discord User access to a specific bot command, replace (command name) with the actual name |
-
+| easyadmin.player.bucket.join | Allows to join another player's bucket, given `ea_routingBucketOptions` is enabled |
+| easyadmin.player.bucket.force | Allows to change another player's bucket, given `ea_routingBucketOptions` is enabled |

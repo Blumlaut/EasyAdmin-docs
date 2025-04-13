@@ -2,6 +2,19 @@
 
 This page outlines instructions on how to update EasyAdmin between versions.
 
+## To 7.4
+
+EasyAdmin 7.4 majorly restructures the resource and completely changes how the Discord Bot works, dependencies are no longer installed through yarn but are shipped with EasyAdmin directly.
+
+Before updating EasyAdmin, you should delete the following files and folders in your EasyAdmin:
+
+```
+server/bot/
+package.json
+```
+
+EasyAdmin 7.4 requires FiveM Server version **12913 or higher** and **Onesync**.
+
 ## To 7.3
 
 The v1 Plugin API has been removed entirely, if plugins were still using the v1 API, refer to the [Porting Docs](plugins.md#porting-plugins-to-68).
