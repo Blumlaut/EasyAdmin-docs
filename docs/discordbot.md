@@ -176,9 +176,11 @@ After rebooting your server, the bot should send it's first log message:
 
 #### Log Forwarding
 
-To make the bot send specific messages into other channels, you can use the `configure` command, this accepts the same log types as `ea_excludeWebhookFeature`.
+Logs can be forwarded to other channels (e.g. redirected), this can be configured by adding adding `ea_addBotLogForwarding` with the specific log type and the discord channel id to the bottom of your server config, for example:
 
-![](assets/configurecommand.gif)
+```
+ea_addBotLogForwarding joinleave 604747425512685582
+```
 
 Individual logs can also be disabled by using `ea_excludeWebhookFeature`, see [Configuring](config.md).
 
